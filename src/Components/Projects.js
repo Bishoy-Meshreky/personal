@@ -1,0 +1,84 @@
+import React from "react";
+import {
+  Card,
+  CardImg,
+  CardBody,
+  CardTitle,
+  CardText,
+  Container,
+  Row,
+  Col,
+} from "reactstrap";
+import pic from "../assets/images/Garson.png";
+import pic2 from "../assets/images/2B Egypt.png";
+import "../assets/scss/App.scss";
+
+const Work = () => {
+  return (
+    <div className="projects" id="PROJECTS">
+      <Container>
+        <h2 className="section-title mb-4 fw-bold" data-aos="zoom-in">
+          PROJECTS
+        </h2>
+        <Row>
+          {/* 2B APP */}
+          <Col md="6" className="mb-4" data-aos="fade-down">
+            <Card
+              className="rounded-4"
+              style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
+            >
+              <CardImg
+                className="rounded-4"
+                top
+                width="100%"
+                src={pic2}
+                alt="2B Egypt App"
+              />
+              <CardBody className="rounded-4">
+                <CardTitle tag="h5" className="fw-bold ms-2">
+                  2B Egypt
+                </CardTitle>
+                <CardText tag="h6" className="text-sm-start mt-4 ms-4">
+                  An online store for BestBuy (2B), one of the biggest
+                  electronics and appliances retails in Egypt.
+                </CardText>
+                <CardText>
+                  <p>Project Delivered: December 2022</p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          {/* Garson App */}
+          <Col md="6" data-aos="fade-down">
+            <Card
+              className="rounded-4"
+              style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
+            >
+              <CardImg
+                className="rounded-4"
+                top
+                width="100%"
+                src={pic}
+                alt="Garson App"
+              />
+              <CardBody className="rounded-4">
+                <CardTitle tag="h5" className="fw-bold ms-2">
+                  Garson App
+                </CardTitle>
+                <CardText tag="h6" className="text-sm-start mt-4 ms-4">
+                  I have developed the Garson Web Application for managing
+                  restaurant and cafe orders.
+                </CardText>
+                <CardText>
+                  <p>Project Delivered: July 2024</p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
+};
+
+export default Work;

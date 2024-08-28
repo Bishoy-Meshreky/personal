@@ -49,9 +49,7 @@ const Header = () => {
           >
             <Nav navbar>
               <NavItem>
-                <NavLink href="/" exact>
-                  Home
-                </NavLink>
+                <NavLink href="/">Home</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/about">About</NavLink>

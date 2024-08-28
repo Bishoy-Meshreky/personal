@@ -419,3 +419,17 @@ body {
   text-shadow: -1px 0 rgb(255, 0, 0);
 }
 
+.fade-out {
+  animation: fadeOutRight 1s forwards;
+}
+
+@keyframes fadeOutRight {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}

@@ -22,7 +22,7 @@ const Work = () => {
         </h2>
         <Row>
           {/* 2B APP */}
-          <Col md="6" className="mb-4" data-aos="fade-down">
+          <Col md="6" className="mb-4" data-aos="fade-up">
             <Card
               className="rounded-4"
               style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
@@ -42,14 +42,14 @@ const Work = () => {
                   An online store for BestBuy (2B), one of the biggest
                   electronics and appliances retails in Egypt.
                 </CardText>
-                <CardText>
-                  <p>Project Delivered: December 2022</p>
+                <CardText className="mt-3 mb-2">
+                  Project Delivered: December 2022
                 </CardText>
               </CardBody>
             </Card>
           </Col>
           {/* Garson App */}
-          <Col md="6" data-aos="fade-down">
+          <Col md="6" data-aos="fade-up">
             <Card
               className="rounded-4"
               style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
@@ -69,8 +69,8 @@ const Work = () => {
                   I have developed the Garson Web Application for managing
                   restaurant and cafe orders.
                 </CardText>
-                <CardText>
-                  <p>Project Delivered: July 2024</p>
+                <CardText className="mt-3 mb-2">
+                  Project Delivered: July 2024
                 </CardText>
               </CardBody>
             </Card>

@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/personal/static/css/main.549e1fc3.css",
-    "main.js": "/personal/static/js/main.e4b4831d.js",
-    "static/media/IMG_2.png": "/personal/static/media/IMG_2.894a0c3ec12c94a68387.png",
-    "static/media/Garson.png": "/personal/static/media/Garson.4bedbf5df1b954558411.png",
-    "static/media/2B Egypt.png": "/personal/static/media/2B Egypt.82a8d88b806e4d4737fd.png",
-    "static/media/image.jpg": "/personal/static/media/image.de4c4987f75b1726fec1.jpg",
-    "static/media/react-hooks.jpg": "/personal/static/media/react-hooks.ebadda98caf2bf40e39b.jpg",
-    "static/media/cicd4.jpg": "/personal/static/media/cicd4.d697ff4fd562bbfc1bcd.jpg",
-    "static/media/REST-API-and-RESTful-API.jpg": "/personal/static/media/REST-API-and-RESTful-API.03cb2b9e77dd6b3613f6.jpg",
-    "index.html": "/personal/index.html",
-    "main.549e1fc3.css.map": "/personal/static/css/main.549e1fc3.css.map",
-    "main.e4b4831d.js.map": "/personal/static/js/main.e4b4831d.js.map"
+    "main.css": "/static/css/main.763c6229.css",
+    "main.js": "/static/js/main.250bcaba.js",
+    "static/media/IMG_2.png": "/static/media/IMG_2.894a0c3ec12c94a68387.png",
+    "static/media/Garson.png": "/static/media/Garson.4bedbf5df1b954558411.png",
+    "static/media/2B Egypt.png": "/static/media/2B Egypt.82a8d88b806e4d4737fd.png",
+    "static/media/image.jpg": "/static/media/image.de4c4987f75b1726fec1.jpg",
+    "static/media/react-hooks.jpg": "/static/media/react-hooks.ebadda98caf2bf40e39b.jpg",
+    "static/media/cicd4.jpg": "/static/media/cicd4.d697ff4fd562bbfc1bcd.jpg",
+    "static/media/REST-API-and-RESTful-API.jpg": "/static/media/REST-API-and-RESTful-API.03cb2b9e77dd6b3613f6.jpg",
+    "index.html": "/index.html",
+    "main.763c6229.css.map": "/static/css/main.763c6229.css.map",
+    "main.250bcaba.js.map": "/static/js/main.250bcaba.js.map"
   },
   "entrypoints": [
-    "static/css/main.549e1fc3.css",
-    "static/js/main.e4b4831d.js"
+    "static/css/main.763c6229.css",
+    "static/js/main.250bcaba.js"
   ]
 }

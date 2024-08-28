@@ -14,7 +14,7 @@ import pic from "../assets/images/react-hooks.jpg";
 import pic1 from "../assets/images/cicd4.jpg";
 import pic2 from "../assets/images/REST-API-and-RESTful-API.jpg";
 
-function Blogs() {
+const Blogs = () => {
   return (
     <div className="blogs" id="BLOGS">
       <Container>
@@ -25,7 +25,7 @@ function Blogs() {
           </span>
         </h2>
         <Row>
-          <Col md="6" className="mb-4" data-aos="fade-down">
+          <Col md="6" className="mb-4" data-aos="fade-up">
             <Card
               className="rounded-4"
               style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
@@ -41,9 +41,7 @@ function Blogs() {
                 <CardTitle tag="h5" className="fw-bold mb-4">
                   REST API vs RESTful
                 </CardTitle>
-                <CardText>
-                  <p>Published Date: August 2024</p>
-                </CardText>
+                <CardText>Published Date: August 2024</CardText>
                 <div>
                   <Button
                     className="rounded-5 fw-bold"
@@ -65,7 +63,7 @@ function Blogs() {
             </Card>
           </Col>
 
-          <Col md="6" className="mb-4" data-aos="fade-down">
+          <Col md="6" className="mb-4" data-aos="fade-up">
             <Card
               className="rounded-4"
               style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
@@ -81,9 +79,7 @@ function Blogs() {
                 <CardTitle tag="h5" className="fw-bold mb-4">
                   What is a (CI/CD) Pipeline?
                 </CardTitle>
-                <CardText>
-                  <p>Published Date: August 2024</p>
-                </CardText>
+                <CardText>Published Date: August 2024</CardText>
                 <div>
                   <Button
                     className="rounded-5 fw-bold"
@@ -105,7 +101,7 @@ function Blogs() {
             </Card>
           </Col>
 
-          <Col md="6" data-aos="fade-down">
+          <Col md="6" data-aos="fade-up">
             <Card
               className="rounded-4"
               style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
@@ -121,9 +117,7 @@ function Blogs() {
                 <CardTitle tag="h5" className="fw-bold mb-4">
                   What are React Hooks?
                 </CardTitle>
-                <CardText>
-                  <p>Published Date: August 2024</p>
-                </CardText>
+                <CardText>Published Date: August 2024</CardText>
                 <div>
                   <Button
                     className="rounded-5 fw-bold"
@@ -148,6 +142,6 @@ function Blogs() {
       </Container>
     </div>
   );
-}
+};
 
 export default Blogs;

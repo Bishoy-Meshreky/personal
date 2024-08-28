@@ -21,10 +21,9 @@ const About = () => {
         </h2>
 
         <Row>
-          <Col md="6">
+          <Col md="6" data-aos="fade-right">
             <Card
               className="rounded-4"
-              data-aos="fade-down"
               style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
             >
               <CardBody>
@@ -67,7 +66,7 @@ const About = () => {
             </Card>
 
             <Card
-              data-aos="fade-down"
+               data-aos="fade-right"
               className="mt-4 mb-4 rounded-4"
               style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
             >
@@ -100,7 +99,7 @@ const About = () => {
 
           <Col md="6">
             <Card
-              data-aos="fade-down"
+              data-aos="fade-up"
               className="rounded-4"
               style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
             >

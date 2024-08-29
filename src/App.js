@@ -6,6 +6,7 @@ import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 import Header from "./Components/Header";
 import Blogs from "./Components/Blogs";
+import Footer from "./Components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -22,6 +23,7 @@ function App() {
       <Projects />
       <Blogs />
       <Contact />
+      <Footer />
     </div>
   );
 }

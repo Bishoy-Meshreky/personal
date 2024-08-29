@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -7,7 +6,7 @@ import {
   faMedium,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { CardText, Container } from "reactstrap";
+import { Button, CardText, Container } from "reactstrap";
 
 const Footer = () => {
   return (
@@ -25,46 +24,42 @@ const Footer = () => {
           backgroundColor: "rgb(24 25 28)",
         }}
       >
-        <section className="mb-4">
-          <a
+        <div className="mb-4">
+          <Button
             href="https://www.linkedin.com/in/bishoymeshreky/"
-            className="btn btn-link btn-floating btn-lg text-light m-1"
-            role="button"
+            className="btn btn-link btn-floating btn-lg text-light m-1 rounded-5"
             target="_blank"
           >
             <FontAwesomeIcon icon={faLinkedin} />
-          </a>
+          </Button>
 
-          <a
+          <Button
             href="https://wa.me/+201271793373?text=Please%20leave%20your%20message%20along%20with%20your%20name,%20company%20name,%20and%20email%20address.%20Thank%20you!"
-            className="btn btn-link btn-floating btn-lg text-light m-1"
-            role="button"
+            className="btn btn-link btn-floating btn-lg text-light m-1 rounded-5"
             target="_blank"
           >
             <FontAwesomeIcon icon={faWhatsapp} />
-          </a>
+          </Button>
 
-          <a
+          <Button
             href="https://medium.com/@beshoymeshreky2013"
-            className="btn btn-link btn-floating btn-lg text-light m-1"
-            role="button"
+            className="btn btn-link btn-floating btn-lg text-light m-1 rounded-5"
             target="_blank"
           >
             <FontAwesomeIcon icon={faMedium} />
-          </a>
+          </Button>
 
-          <a
+          <Button
             href="mailto:meshreky.beshoy@gmail.com"
-            className="btn btn-link btn-floating btn-lg text-light m-1"
-            role="button"
+            className="btn btn-link btn-floating btn-lg text-light m-1 rounded-5"
           >
             <FontAwesomeIcon icon={faEnvelope} />
-          </a>
-        </section>
+          </Button>
+        </div>
       </Container>
 
-      {/* Copyright Section // #191c1f*/} 
-      <div className="text-center p-3" style={{ backgroundColor: "#191c1f" }}> 
+      {/* Copyright Section */} 
+      <div className="text-center p-3" style={{ backgroundColor: "rgb(24 25 28)" }}> 
         &copy; {new Date().getFullYear()} Copyright
         <CardText className="text-light ms-2">
           Developed by Bishoy Meshreky

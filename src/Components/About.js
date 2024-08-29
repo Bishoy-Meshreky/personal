@@ -66,7 +66,7 @@ const About = () => {
             </Card>
 
             <Card
-              data-aos="fade-right"
+               data-aos="fade-right"
               className="mt-4 mb-4 rounded-4"
               style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
             >
@@ -89,8 +89,8 @@ const About = () => {
                     Google Cloud Platform (GCP), and Amazon Web Services (AWS).
                   </CardText>
                   <CardText tag="h6" className="text-sm-start ms-2 me-2">
-                    I'm also well-versed in CICD practices, and have a strong
-                    understanding of software development best practices.
+                    Dedicated to developing user-centric solutions, writing
+                    clean code, and driving innovation.
                   </CardText>
                 </div>
               </CardBody>

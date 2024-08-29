@@ -8,6 +8,38 @@ import Header from "./Components/Header";
 import Blogs from "./Components/Blogs";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
+function App() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
+  return (
+    <div className="App">
+      <Header />
+      <Home />
+      <About />
+      <Projects />
+      <Blogs />
+      <Contact />
+    </div>
+  );
+}
+
+export default App;
+
+// TODO: THESE ARE FOR MULTI PAGES
+/* 
+import React, { useEffect } from "react";
+import "./assets/scss/App.scss";
+import Home from "./Components/Home";
+import About from "./Components/About";
+import Projects from "./Components/Projects";
+import Contact from "./Components/Contact";
+import Header from "./Components/Header";
+import Blogs from "./Components/Blogs";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Route, Routes, Navigate } from "react-router-dom";
 
 function App() {
@@ -31,3 +63,4 @@ function App() {
 }
 
 export default App;
+ */

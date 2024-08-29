@@ -13,7 +13,7 @@ import img from "../assets/images/IMG_2.png";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home" id="HOME">
       <Container fluid>
         <Row>
           <Col md="6" className="mb-5">

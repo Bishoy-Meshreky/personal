@@ -28,7 +28,7 @@ function App() {
 
 export default App;
 
-// TODO: THESE ARE FOR MULTI PAGES
+// TODO: THESE ARE FOR "multiple pages"
 /* 
 import React, { useEffect } from "react";
 import "./assets/scss/App.scss";

@@ -70,7 +70,7 @@ const Header = () => {
 
 export default Header;
 
-// TODO: THESE ARE FOR MULTI PAGES
+// TODO: THESE ARE FOR "multiple pages"
 /* import React, { useState, useEffect } from "react";
 import {
   Navbar,

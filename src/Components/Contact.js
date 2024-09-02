@@ -94,10 +94,13 @@ const Contact = () => {
   }, [showAlert]);
 
   return (
-    <div className="contact" id="CONTACT">
+    <div className="contact" id="Contact">
       <Container>
-        <h2 className="section-title mb-4 fw-bold" data-aos="zoom-in">
-          CONTACT ME
+        <h2 className="section-title mb-4" data-aos="zoom-in">
+          Contact
+          <span className="ms-2 fw-bold" style={{ color: "#B79A5D" }}>
+            Me
+          </span>
         </h2>
         <Row
           style={{
@@ -183,7 +186,7 @@ const Contact = () => {
                       id="message"
                       name="message"
                       placeholder="Leave a message here"
-                      style={{ height: "200px" }}
+                      style={{ height: "300px" }}
                       className="form-control rounded-4"
                       value={addEmailMessage.values.message}
                       onChange={addEmailMessage.handleChange}

@@ -16,11 +16,11 @@ import pic2 from "../assets/images/REST-API-and-RESTful-API.jpg";
 
 const Blogs = () => {
   return (
-    <div className="blogs" id="BLOGS">
+    <div className="blogs" id="Blogs">
       <Container>
         <h2 className="section-title mb-4" data-aos="zoom-in">
           Blogs on
-          <span className="fw-bold ms-2" style={{ color: "#B79A5D" }}>
+          <span className="ms-2 fw-bold" style={{ color: "#B79A5D" }}>
             Medium
           </span>
         </h2>

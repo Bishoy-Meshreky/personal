@@ -15,10 +15,10 @@ import "../assets/scss/App.scss";
 
 const Work = () => {
   return (
-    <div className="projects" id="PROJECTS">
+    <div className="projects" id="Work">
       <Container>
-        <h2 className="section-title mb-4 fw-bold" data-aos="zoom-in">
-          PROJECTS
+        <h2 className="section-title mb-4 " data-aos="zoom-in">
+          My<span className="ms-2 fw-bold" style={{ color: "#B79A5D" }}>Work</span>
         </h2>
         <Row>
           {/* 2B APP */}

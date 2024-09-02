@@ -14,12 +14,12 @@ import pic from "../assets/images/Beshoy.jpeg";
 
 const About = () => {
   return (
-    <div className="about" id="ABOUT">
+    <div className="about" id="About">
       <Container>
-        <h2 className="section-title mb-4 fw-bold" data-aos="zoom-in">
-          ABOUT ME
+        <h2 className="section-title mb-4" data-aos="zoom-in">
+          About<span className="ms-2 fw-bold" style={{ color: "#B79A5D" }}>Me</span>
         </h2>
-
+        
         <Row>
           <Col md="6" data-aos="fade-right">
             <Card

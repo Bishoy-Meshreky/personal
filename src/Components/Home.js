@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import { Row, Col, Container, Button } from "reactstrap";
+import { Row, Col, Container, Button, CardText } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
@@ -13,34 +13,30 @@ import img from "../assets/images/IMG_2.png";
 
 const Home = () => {
   return (
-    <div className="home" id="HOME">
+    <div className="home" id="Home">
       <Container fluid>
         <Row>
           <Col md="6" className="mb-5">
             <header className="App-header mt-5">
               <div style={{ marginTop: "8rem" }}>
-                <div
-                  tag="h1"
-                  style={{ fontSize: "3rem", color: "#B79A5D" }}
-                  data-aos="fade-down"
-                >
+                <div tag="h1" style={{ fontSize: "3rem" }} data-aos="fade-down">
                   Hello
+                  <CardText tag="h1" style={{ fontSize: "3.5rem" }}>
+                    I'm
+                    <span className="fw-bold ms-3" style={{ color: "#B79A5D" }}>
+                      Bishoy Meshreky
+                    </span>
+                  </CardText>
                 </div>
-                <div data-aos="fade-up">
-                  <h1 className="fw-bold" style={{ fontSize: "4rem" }}>
-                    I'm Bishoy Meshreky
-                  </h1>
+                <div className="mt-3" data-aos="fade-up">
                   <h1>
                     <TypeAnimation
-                      style={{ color: "#B79A5D" }}
                       sequence={[
                         "Software Developer",
                         2000,
                         "Web Developer",
                         2000,
                         "Frontend Developer",
-                        2000,
-                        "Full Stack Developer",
                         2000,
                       ]}
                       wrapper="span"

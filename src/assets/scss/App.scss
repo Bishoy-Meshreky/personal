@@ -58,9 +58,9 @@ body {
 
 
 .contact {
-  padding: 85px 0px 189px 0px;
+  padding: 95px 0px 189px 0px;
   background: #111;
-  color: #B79A5D;
+  color: white;
   height: 105vh;
   overflow: hidden;
 
@@ -76,9 +76,9 @@ body {
 }
 
 .about {
-  padding: 85px 0;
+  padding: 95px 0;
   background: #111;
-  color: #B79A5D;
+  color: white;
   
 
   & h2 {
@@ -108,9 +108,9 @@ body {
 }
 
 .projects {
-  padding: 85px 0px 110px 0px;
+  padding: 95px 0px 110px 0px;
   background: #111;
-  color: #B79A5D;
+  color: white;
   height: fit-content;
   
   & h2 {
@@ -135,7 +135,7 @@ body {
 }
 
 .blogs {
-  padding: 85px 0px 90px 0px;
+  padding: 95px 0px 90px 0px;
   background: #111;
   color: $light-color;
   height: fit-content;

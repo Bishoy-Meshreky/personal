@@ -74,7 +74,7 @@ const About = () => {
                 <h4 className="fw-bold mb-4 ms-2 mt-3">Summary</h4>
                 <div className="mb-4 mt-2 ms-3 me-4">
                   <CardText tag="h6" className="text-sm-start mb-4 ms-2 me-2">
-                    Experienced Full-Stack Developer with 5 years of experience,
+                    Experienced Software Developer with 5 years of experience,
                     proficient in HTML, HTML5, CSS, CSS3, SCSS, Bootstrap,
                     JavaScript, TypeScript, React.js, Redux, and AJAX.
                   </CardText>

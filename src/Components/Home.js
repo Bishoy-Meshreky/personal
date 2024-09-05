@@ -19,25 +19,33 @@ const Home = () => {
           <Col md="6" className="mb-5">
             <header className="App-header mt-5">
               <div style={{ marginTop: "8rem" }}>
-                <div tag="h1" style={{ fontSize: "3rem" }} data-aos="fade-down">
-                  Hello
-                  <CardText tag="h1" style={{ fontSize: "3.5rem" }}>
-                    I'm
-                    <span className="fw-bold ms-3" style={{ color: "#B79A5D" }}>
-                      Bishoy Meshreky
-                    </span>
+                <div>
+                  <h1
+                    style={{ fontSize: "3rem" }}
+                    data-aos="fade-down"
+                    className="fw-bold"
+                  >
+                    Hello, I'm
+                  </h1>
+                  <CardText
+                    tag="h1"
+                    style={{ fontSize: "4rem", color: "#B79A5D" }}
+                    className="fw-bold mt-4 mb-4"
+                    data-aos="zoom-in"
+                  >
+                    Bishoy Meshreky
                   </CardText>
                 </div>
-                <div className="mt-3" data-aos="fade-up">
+                <div>
                   <h1>
                     <TypeAnimation
                       sequence={[
                         "Software Developer",
-                        2000,
+                        3000,
                         "Web Developer",
-                        2000,
+                        3000,
                         "Frontend Developer",
-                        2000,
+                        3000,
                       ]}
                       wrapper="span"
                       cursor={true}
@@ -69,12 +77,7 @@ const Home = () => {
                 marginRight: "6rem",
               }}
             >
-              <div
-                data-aos="fade-up"
-                data-aos-anchor="#example-anchor"
-                data-aos-offset="200"
-                data-aos-duration="200"
-              >
+              <div data-aos="fade-left" data-aos-duration="800">
                 <Button
                   href="https://www.linkedin.com/in/bishoymeshreky/"
                   target="_blank"
@@ -87,12 +90,7 @@ const Home = () => {
                   <FontAwesomeIcon icon={faLinkedin} /> Linkedin
                 </Button>
               </div>
-              <div
-                data-aos="fade-up"
-                data-aos-anchor="#example-anchor"
-                data-aos-offset="400"
-                data-aos-duration="400"
-              >
+              <div data-aos="fade-left" data-aos-duration="1000">
                 <Button
                   href="https://wa.me/+201271793373?text=Please%20leave%20your%20message%20along%20with%20your%20name,%20company%20name,%20and%20email%20address.%20Thank%20you!"
                   target="_blank"
@@ -105,12 +103,7 @@ const Home = () => {
                   <FontAwesomeIcon icon={faWhatsapp} /> Whatsapp
                 </Button>
               </div>
-              <div
-                data-aos="fade-up"
-                data-aos-anchor="#example-anchor"
-                data-aos-offset="600"
-                data-aos-duration="600"
-              >
+              <div data-aos="fade-left" data-aos-duration="1200">
                 <Button
                   href="https://medium.com/@beshoymeshreky2013"
                   target="_blank"
@@ -123,12 +116,7 @@ const Home = () => {
                   <FontAwesomeIcon icon={faMedium} /> Medium
                 </Button>
               </div>
-              <div
-                data-aos="fade-up"
-                data-aos-anchor="#example-anchor"
-                data-aos-offset="800"
-                data-aos-duration="800"
-              >
+              <div data-aos="fade-left" data-aos-duration="1400">
                 <Button
                   href="https://s3.me-central-1.amazonaws.com/www.bishoymeshreky.com/Bishoy-Meshreky-CV.pdf"
                   download="Bishoy Meshreky CV.pdf"

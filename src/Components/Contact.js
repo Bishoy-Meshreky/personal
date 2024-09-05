@@ -96,7 +96,7 @@ const Contact = () => {
   return (
     <div className="contact" id="Contact">
       <Container>
-        <h2 className="section-title mb-4" data-aos="zoom-in">
+        <h2 className="section-title mb-4">
           Contact
           <span className="ms-2 fw-bold" style={{ color: "#B79A5D" }}>
             Me

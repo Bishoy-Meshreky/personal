@@ -18,15 +18,16 @@ const Blogs = () => {
   return (
     <div className="blogs" id="Blogs">
       <Container>
-        <h2 className="section-title mb-4" data-aos="zoom-in">
+        <h2 className="section-title mb-4" >
           Blogs on
           <span className="ms-2 fw-bold" style={{ color: "#B79A5D" }}>
             Medium
           </span>
         </h2>
-        <Row>
-          <Col md="6" className="mb-4" data-aos="fade-up">
+        <Row >
+          <Col md="6" className="mb-4">
             <Card
+              data-aos="zoom-in"
               className="rounded-4"
               style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
             >
@@ -63,8 +64,9 @@ const Blogs = () => {
             </Card>
           </Col>
 
-          <Col md="6" className="mb-4" data-aos="fade-up">
+          <Col md="6" className="mb-4" >
             <Card
+              data-aos="zoom-in"
               className="rounded-4"
               style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
             >
@@ -101,8 +103,9 @@ const Blogs = () => {
             </Card>
           </Col>
 
-          <Col md="6" data-aos="fade-up">
+          <Col md="6">
             <Card
+              data-aos="zoom-in"
               className="rounded-4"
               style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
             >

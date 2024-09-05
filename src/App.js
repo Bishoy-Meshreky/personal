@@ -7,6 +7,8 @@ import Contact from "./Components/Contact";
 import Header from "./Components/Header";
 import Blogs from "./Components/Blogs";
 import Footer from "./Components/Footer";
+import JumpArrow from "./Components/JumpUp";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -24,6 +26,7 @@ function App() {
       <Blogs />
       <Contact />
       <Footer />
+      <JumpArrow />
     </div>
   );
 }

@@ -423,6 +423,7 @@ body {
   animation: fadeOutRight 1s forwards;
 }
 
+// jump up button
 @keyframes fadeOutRight {
   0% {
     opacity: 1;
@@ -431,5 +432,39 @@ body {
   100% {
     opacity: 0;
     transform: translateX(100%);
+  }
+}
+
+@keyframes jump {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+.arrow-button {
+  position: fixed;
+  bottom: 2rem; /* Adjusted to be more visible */
+  right: 2rem; /* Adjusted to be more visible */
+  background-color: rgba(62, 68, 86, 0.492);
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px; /* Larger icon size */
+  text-align: center;
+  width: 35px;
+  height: 35px; /* Make the button a bit larger */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Added shadow */
+  transition: background-color 0.3s, transform 0.3s;
+  animation: jump 0.5s infinite alternate;
+
+  &:hover {
+    background-color: rgba(62, 68, 86, 0.9);
+    transform: scale(1.1); /* Slightly increase size on hover */
   }
 }

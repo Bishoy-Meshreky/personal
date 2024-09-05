@@ -17,13 +17,14 @@ const Work = () => {
   return (
     <div className="projects" id="Work">
       <Container>
-        <h2 className="section-title mb-4 " data-aos="zoom-in">
+        <h2 className="section-title mb-4 ">
           My<span className="ms-2 fw-bold" style={{ color: "#B79A5D" }}>Work</span>
         </h2>
         <Row>
           {/* 2B APP */}
-          <Col md="6" className="mb-4" data-aos="fade-up">
+          <Col md="6" className="mb-4" >
             <Card
+              data-aos="fade-right"
               className="rounded-4"
               style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
             >
@@ -49,8 +50,9 @@ const Work = () => {
             </Card>
           </Col>
           {/* Garson App */}
-          <Col md="6" data-aos="fade-up">
+          <Col md="6">
             <Card
+              data-aos="fade-left"
               className="rounded-4"
               style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
             >

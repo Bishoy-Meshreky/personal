@@ -22,7 +22,7 @@ const Home = () => {
                 <div>
                   <h1
                     style={{ fontSize: "3rem" }}
-                    data-aos="fade-down"
+                    data-aos="zoom-out"
                     className="fw-bold"
                   >
                     Hello, I'm
@@ -31,7 +31,6 @@ const Home = () => {
                     tag="h1"
                     style={{ fontSize: "4rem", color: "#B79A5D" }}
                     className="fw-bold mt-4 mb-4"
-                    data-aos="zoom-in"
                   >
                     Bishoy Meshreky
                   </CardText>

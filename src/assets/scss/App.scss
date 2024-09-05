@@ -446,25 +446,25 @@ body {
 
 .arrow-button {
   position: fixed;
-  bottom: 2rem; /* Adjusted to be more visible */
-  right: 2rem; /* Adjusted to be more visible */
+  bottom: 2rem; 
+  right: 2rem; 
   background-color: rgba(62, 68, 86, 0.492);
   color: white;
   border-radius: 50%;
   cursor: pointer;
-  font-size: 20px; /* Larger icon size */
+  font-size: 20px; 
   text-align: center;
   width: 35px;
-  height: 35px; /* Make the button a bit larger */
+  height: 35px; 
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Added shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
   transition: background-color 0.3s, transform 0.3s;
   animation: jump 0.5s infinite alternate;
 
   &:hover {
     background-color: rgba(62, 68, 86, 0.9);
-    transform: scale(1.1); /* Slightly increase size on hover */
+    transform: scale(1.1); 
   }
 }

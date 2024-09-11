@@ -40,11 +40,11 @@ const Home = () => {
                     <TypeAnimation
                       sequence={[
                         "Software Developer",
-                        3000,
+                        2000,
                         "Web Developer",
-                        3000,
+                        2000,
                         "Frontend Developer",
-                        3000,
+                        2000,
                       ]}
                       wrapper="span"
                       cursor={true}

@@ -11,6 +11,14 @@ import {
 } from "reactstrap";
 import "../assets/scss/App.scss";
 import pic from "../assets/images/Beshoy.jpeg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {
+  faIdCard,
+  faEnvelope,
+  faPhone,
+  faUser,
+} from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
   return (
@@ -46,20 +54,24 @@ const About = () => {
                       tag="h6"
                       className="fw-bold text-sm-start mt-2 mb-4"
                     >
+                      <FontAwesomeIcon icon={faUser} className="me-3" />
                       Name:
                       <span className="fw-normal ms-2">Bishoy Meshreky</span>
                     </CardText>
                     <CardText tag="h6" className="fw-bold text-sm-start mb-4">
+                      <FontAwesomeIcon icon={faPhone} className="me-3" />
                       Phone:
                       <span className="fw-normal ms-2">+20 1271793373</span>
                     </CardText>
                     <CardText tag="h6" className="fw-bold text-sm-start mb-4">
+                      <FontAwesomeIcon icon={faEnvelope} className="me-3" />
                       Email:
                       <span className="fw-normal ms-2">
                         meshreky.beshoy@gmail.com
                       </span>
                     </CardText>
-                    <CardText tag="h6" className="fw-bold text-sm-start mb-2">
+                    <CardText tag="h6" className="fw-bold text-sm-start mb-4">
+                      <FontAwesomeIcon icon={faIdCard} className="me-3" />
                       Nationality:
                       <span className="fw-normal ms-2">Egyptian</span>
                     </CardText>
@@ -150,63 +162,63 @@ const About = () => {
                     className="mb-4 ms-3 me-3"
                     style={{ height: "5px" }}
                     value={85}
-                    min={0}
+                    min={1}
                     max={100}
                   />
 
                   <h6 className="ms-3 mb-4" style={{ marginTop: "2rem" }}>
                     Software Development Frameworks and Tools
                     <span style={{ float: "right" }} className="me-3">
-                      75%
+                      95%
                     </span>
                   </h6>
                   <Progress
                     className="mb-4 ms-3 me-3"
                     style={{ height: "5px" }}
-                    value={75}
-                    min={0}
+                    value={95}
+                    min={1}
                     max={100}
                   />
 
                   <h6 className="ms-3 mb-4" style={{ marginTop: "2rem" }}>
                     Database Management
                     <span style={{ float: "right" }} className="me-3">
-                      70%
+                      80%
                     </span>
                   </h6>
                   <Progress
                     className="mb-4 ms-3 me-3"
                     style={{ height: "5px" }}
-                    value={70}
-                    min={0}
+                    value={80}
+                    min={1}
                     max={100}
                   />
 
                   <h6 className="ms-3 mb-4" style={{ marginTop: "2rem" }}>
                     APIs and Cloud Services
                     <span style={{ float: "right" }} className="me-3">
-                      65%
+                      75%
                     </span>
                   </h6>
                   <Progress
                     className="mb-4 ms-3 me-3"
                     style={{ height: "5px" }}
-                    value={65}
-                    min={0}
+                    value={75}
+                    min={1}
                     max={100}
                   />
 
                   <h6 className="ms-3 mb-4" style={{ marginTop: "2rem" }}>
                     Version Control Systems
                     <span style={{ float: "right" }} className="me-3">
-                      75%
+                      85%
                     </span>
                   </h6>
                   <Progress
                     className="ms-3 me-3"
                     style={{ height: "5px" }}
-                    value={75}
-                    min={0}
+                    value={85}
+                    min={1}
                     max={100}
                   />
                 </div>

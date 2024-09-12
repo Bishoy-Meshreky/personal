@@ -12,7 +12,6 @@ import {
 import "../assets/scss/App.scss";
 import pic from "../assets/images/Beshoy.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import {
   faIdCard,
   faEnvelope,
@@ -87,11 +86,11 @@ const About = () => {
             >
               <CardBody style={{ marginBottom: "12px" }}>
                 <h4 className="fw-bold mb-4 ms-2 mt-3">Summary</h4>
-                <div className="mb-4 mt-2 ms-3 me-4">
+                <div className="mb-3 mt-2 ms-3 me-4">
                   <CardText tag="h6" className="text-sm-start mb-4 ms-2 me-2">
                     Experienced Software Developer with 5 years of experience,
-                    proficient in HTML, HTML5, CSS, CSS3, SCSS, Bootstrap,
-                    JavaScript, TypeScript, React.js, Redux, and AJAX.
+                    proficient in HTML, HTML5, CSS, CSS3, SCSS, React.js, Redux,
+                    Jest, JavaScript, TypeScript, Bootstrap, and AJAX.
                   </CardText>
                   <CardText tag="h6" className="text-sm-start mb-4 ms-2 me-2">
                     Successfully created web applications, improving page load
@@ -208,7 +207,7 @@ const About = () => {
                     max={100}
                   />
 
-                  <h6 className="ms-3 mb-4" style={{ marginTop: "2rem" }}>
+                  <h6 className="ms-3 mb-4" style={{ marginTop: "1.8rem" }}>
                     Version Control Systems
                     <span style={{ float: "right" }} className="me-3">
                       85%

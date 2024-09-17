@@ -78,8 +78,8 @@ const Contact = () => {
         setSuccessMessage("Your email has been sent successfully. Thank you!");
         setShowAlert(true);
       } catch (error) {
-        // console.error(error);
-        throw error
+        console.error(error);
+        // throw error;
       }
       resetForm();
     },

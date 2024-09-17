@@ -18,8 +18,41 @@ import {
   faPhone,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
+import {
+  faReact,
+  faNodeJs,
+  faHtml5,
+  faCss3Alt,
+  faSass,
+  faJs,
+  faBootstrap,
+  faAws,
+} from "@fortawesome/free-brands-svg-icons";
+import nextJs from "../assets/images/nextjs-icon-svgrepo-com.svg";
+import reduxJs from "../assets/images/redux-svgrepo-com.svg";
+import typeScript from "../assets/images/typescript-icon-svgrepo-com.svg";
+import jest from "../assets/images/jest-snapshot-svgrepo-com.svg";
+import fireStore from "../assets/images/Primary_Vertical_Lockup_Full_Color.svg";
+import googleCloud from "../assets/images/google-cloud-svgrepo-com.svg";
 
 const About = () => {
+  const technologies = [
+    { icon: faReact, color: "#61DBFB" },
+    { icon: nextJs, color: "#000000", isCustom: true },
+    { icon: faNodeJs, color: "#68A063" },
+    { icon: faJs, color: "#ffc107" },
+    { icon: typeScript, color: "#000000", isCustom: true },
+    { icon: faHtml5, color: "#e34c26" },
+    { icon: faCss3Alt, color: "#264de4" },
+    { icon: faSass, color: "#CC6699" },
+    { icon: faBootstrap, color: "#712cf9" },
+    { icon: reduxJs, color: "#000000", isCustom: true },
+    { icon: jest, color: "#000000", isCustom: true },
+    { icon: fireStore, color: "#000000", isCustom: true },
+    { icon: googleCloud, color: "#000000", isCustom: true },
+    { icon: faAws, color: "#252F3E" },
+  ];
+
   return (
     <div className="about" id="About">
       <Container>
@@ -89,8 +122,8 @@ const About = () => {
                 <div className="mb-3 mt-2 ms-3 me-4">
                   <CardText tag="h6" className="text-sm-start mb-4 ms-2 me-2">
                     Experienced Software Developer with 5 years of experience,
-                    proficient in HTML, HTML5, CSS, CSS3, SCSS, React.js, Redux,
-                    Jest, JavaScript, TypeScript, Bootstrap, and AJAX.
+                    proficient in HTML, CSS, SCSS, React.js, Redux, Jest,
+                    JavaScript, TypeScript, Bootstrap, and AJAX.
                   </CardText>
                   <CardText tag="h6" className="text-sm-start mb-4 ms-2 me-2">
                     Successfully created web applications, improving page load
@@ -99,8 +132,8 @@ const About = () => {
                   <CardText tag="h6" className="text-sm-start mb-4 ms-2 me-4">
                     Skilled in implementing efficient development practices in
                     Ubuntu/Linux environments and proficient in tools like
-                    GitHub, RESTful API, Node.js, Cloud Firestore Firebase,
-                    Google Cloud Platform (GCP), and Amazon Web Services (AWS).
+                    GitHub, RESTful API, Node.js, Cloud Firestore, Google Cloud
+                    Platform (GCP), and Amazon Web Services (AWS).
                   </CardText>
                   <CardText tag="h6" className="text-sm-start ms-2 me-2">
                     Dedicated to developing user-centric solutions, writing
@@ -113,7 +146,7 @@ const About = () => {
 
           <Col md="6">
             <Card
-              data-aos="fade-up"
+              data-aos="fade-left"
               className="rounded-4"
               style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
             >
@@ -224,6 +257,41 @@ const About = () => {
               </CardBody>
             </Card>
           </Col>
+
+          {/* TODO: */}
+          <CardText tag="h5" className="fw-bold mt-2">
+            Technologies
+          </CardText>
+          {technologies.map((tech, index) => (
+            <Col
+              sm="3"
+              md="2"
+              key={index}
+              style={{ width: "10rem" }}
+              className="ms-1"
+            >
+              <Card
+                data-aos="flip-right"
+                className="mb-4 mt-4 text-center rounded-4 technology-card"
+              >
+                <CardBody>
+                  {tech.isCustom ? (
+                    <img
+                      src={tech.icon}
+                      alt={tech.name}
+                      style={{ width: "60px", height: "65px" }}
+                    />
+                  ) : (
+                    <FontAwesomeIcon
+                      icon={tech.icon}
+                      size="4x"
+                      color={tech.color}
+                    />
+                  )}
+                </CardBody>
+              </Card>
+            </Col>
+          ))}
         </Row>
       </Container>
     </div>

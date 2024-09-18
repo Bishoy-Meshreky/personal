@@ -9,7 +9,7 @@ import {
   faMedium,
 } from "@fortawesome/free-brands-svg-icons";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
-import img from "../assets/images/IMG_2.png";
+import img from "../assets/images/IMG.jpg";
 
 const Home = () => {
   return (

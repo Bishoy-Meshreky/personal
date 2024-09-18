@@ -128,7 +128,10 @@ const Contact = () => {
             <Card
               data-aos="fade-up"
               className="rounded-4"
-              style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
+              style={{
+                borderColor: "#343a40",
+                backgroundColor: "rgb(37 37 37 / 70%)",
+              }}
             >
               <CardBody>
                 <Form onSubmit={addEmailMessage.handleSubmit}>

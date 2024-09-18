@@ -66,8 +66,11 @@ const About = () => {
         <Row>
           <Col md="6" data-aos="fade-right">
             <Card
-              className="rounded-4"
-              style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
+              className="rounded-4 hover-card"
+              style={{
+                borderColor: "#343a40",
+                backgroundColor: "rgb(37 37 37 / 70%)",
+              }}
             >
               <CardBody>
                 <div className="d-flex flex-wrap pt-2">
@@ -113,9 +116,11 @@ const About = () => {
             </Card>
 
             <Card
-              data-aos="fade-right"
-              className="mt-4 mb-4 rounded-4"
-              style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
+              className="mt-4 mb-4 rounded-4 hover-card"
+              style={{
+                borderColor: "#343a40",
+                backgroundColor: "rgb(37 37 37 / 70%)",
+              }}
             >
               <CardBody style={{ marginBottom: "12px" }}>
                 <h4 className="fw-bold mb-4 ms-2 mt-3">Summary</h4>
@@ -132,8 +137,8 @@ const About = () => {
                   <CardText tag="h6" className="text-sm-start mb-4 ms-2 me-4">
                     Skilled in implementing efficient development practices in
                     Ubuntu/Linux environments and proficient in tools like
-                    GitHub, RESTful API, Node.js, Cloud Firestore, Google Cloud
-                    Platform (GCP), and Amazon Web Services (AWS).
+                    GitHub, RESTful APIs, Node.js, Cloud Firestore Firebase, Google Cloud
+                    Platform, and Amazon Web Services.
                   </CardText>
                   <CardText tag="h6" className="text-sm-start ms-2 me-2">
                     Dedicated to developing user-centric solutions, writing
@@ -144,11 +149,13 @@ const About = () => {
             </Card>
           </Col>
 
-          <Col md="6">
+          <Col md="6" data-aos="fade-right">
             <Card
-              data-aos="fade-left"
-              className="rounded-4"
-              style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
+              className="rounded-4 hover-card"
+              style={{
+                borderColor: "#343a40",
+                backgroundColor: "rgb(37 37 37 / 70%)",
+              }}
             >
               <CardBody className="mb-4">
                 <div>
@@ -269,11 +276,9 @@ const About = () => {
               key={index}
               style={{ width: "10rem" }}
               className="ms-1"
+              data-aos="flip-right"
             >
-              <Card
-                data-aos="flip-right"
-                className="mb-4 mt-4 text-center rounded-4 technology-card"
-              >
+              <Card className="mb-4 mt-4 text-center rounded-4 technology-card">
                 <CardBody>
                   {tech.isCustom ? (
                     <img

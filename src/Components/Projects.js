@@ -18,15 +18,20 @@ const Work = () => {
     <div className="projects" id="Work">
       <Container>
         <h2 className="section-title mb-4 ">
-          My<span className="ms-2 fw-bold" style={{ color: "#B79A5D" }}>Work</span>
+          My
+          <span className="ms-2 fw-bold" style={{ color: "#B79A5D" }}>
+            Work
+          </span>
         </h2>
         <Row>
           {/* 2B APP */}
-          <Col md="6" className="mb-4" >
+          <Col md="6" className="mb-4" data-aos="fade-right">
             <Card
-              data-aos="fade-right"
-              className="rounded-4"
-              style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
+              className="rounded-4 hover-card"
+              style={{
+                borderColor: "#343a40",
+                backgroundColor: "rgb(37 37 37 / 70%)",
+              }}
             >
               <CardImg
                 className="rounded-4"
@@ -50,11 +55,13 @@ const Work = () => {
             </Card>
           </Col>
           {/* Garson App */}
-          <Col md="6">
+          <Col md="6" data-aos="fade-right">
             <Card
-              data-aos="fade-left"
-              className="rounded-4"
-              style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
+              className="rounded-4 hover-card"
+              style={{
+                borderColor: "#343a40",
+                backgroundColor: "rgb(37 37 37 / 70%)",
+              }}
             >
               <CardImg
                 className="rounded-4"

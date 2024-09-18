@@ -18,18 +18,21 @@ const Blogs = () => {
   return (
     <div className="blogs" id="Blogs">
       <Container>
-        <h2 className="section-title mb-4" >
+        <h2 className="section-title mb-4">
           Blogs on
           <span className="ms-2 fw-bold" style={{ color: "#B79A5D" }}>
             Medium
           </span>
         </h2>
-        <Row >
-          <Col md="6" className="mb-4">
+
+        <Row>
+          <Col md="6" className="mb-4" data-aos="fade-right">
             <Card
-              data-aos="zoom-in"
-              className="rounded-4"
-              style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
+              className="rounded-4 hover-card"
+              style={{
+                borderColor: "#343a40",
+                backgroundColor: "rgb(37 37 37 / 70%)",
+              }}
             >
               <CardImg
                 className="rounded-4"
@@ -64,11 +67,13 @@ const Blogs = () => {
             </Card>
           </Col>
 
-          <Col md="6" className="mb-4" >
+          <Col md="6" className="mb-4" data-aos="fade-right">
             <Card
-              data-aos="zoom-in"
-              className="rounded-4"
-              style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
+              className="rounded-4 hover-card"
+              style={{
+                borderColor: "#343a40",
+                backgroundColor: "rgb(37 37 37 / 70%)",
+              }}
             >
               <CardImg
                 className="rounded-4"
@@ -103,11 +108,13 @@ const Blogs = () => {
             </Card>
           </Col>
 
-          <Col md="6">
+          <Col md="6" data-aos="fade-right">
             <Card
-              data-aos="zoom-in"
-              className="rounded-4"
-              style={{ borderColor: "#B79A5D", backgroundColor: "#252525" }}
+              className="rounded-4 hover-card"
+              style={{
+                borderColor: "#343a40",
+                backgroundColor: "rgb(37 37 37 / 70%)",
+              }}
             >
               <CardImg
                 className="rounded-4"

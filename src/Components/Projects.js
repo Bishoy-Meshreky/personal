@@ -25,7 +25,7 @@ const Work = () => {
         </h2>
         <Row>
           {/* 2B APP */}
-          <Col md="6" className="mb-4" data-aos="fade-right">
+          <Col md="6" className="mb-4">
             <Card
               className="rounded-4 hover-card"
               style={{
@@ -55,7 +55,7 @@ const Work = () => {
             </Card>
           </Col>
           {/* Garson App */}
-          <Col md="6" data-aos="fade-right">
+          <Col md="6">
             <Card
               className="rounded-4 hover-card"
               style={{

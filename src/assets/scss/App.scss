@@ -3,6 +3,7 @@
 
 body {
   font-family: $font-family-sans-serif;
+
 }
 
 .navbar {
@@ -33,18 +34,17 @@ body {
   }
 }
 
-.home {
-  padding: 155px 0;
+.App {
+  padding: 68.5px 0;
   background: url('../images/image.jpg') no-repeat center center;
   background-size: cover;
   color: $light-color;
   height: fit-content;
+  object-fit: cover;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
   text-align: center;
-  overflow: hidden;
+  overflow: auto;
 
 
   &-content h1 {
@@ -58,8 +58,7 @@ body {
 
 
 .contact {
-  padding: 95px 0px 189px 0px;
-  background: #111;
+  padding: 20px 0px;
   color: white;
   height: 105vh;
   overflow: hidden;
@@ -76,8 +75,7 @@ body {
 }
 
 .about {
-  padding: 95px 0;
-  background: #111;
+  padding: 35px 0;
   color: white;
   
 
@@ -108,8 +106,7 @@ body {
 }
 
 .projects {
-  padding: 95px 0px 110px 0px;
-  background: #111;
+  padding: 35px 0px 110px 0px;
   color: white;
   height: fit-content;
   
@@ -135,8 +132,7 @@ body {
 }
 
 .blogs {
-  padding: 95px 0px 90px 0px;
-  background: #111;
+  padding: 35px 0px 90px 0px;
   color: $light-color;
   height: fit-content;
   
@@ -278,16 +274,16 @@ body {
 // mobile size
 @media (max-width: 768px) {
   .card {
-    height: auto; // Ensure the height is auto on smaller screens
+    height: auto; 
   }
 
   .avatar-md {
-    height: 7rem; // Adjust image size for mobile
+    height: 7rem; 
     width: 7rem;
   }
 
   .card-text {
-    font-size: 0.9rem; // Adjust font size for smaller screens
+    font-size: 0.9rem; 
   }
 }
 
@@ -310,59 +306,6 @@ body {
   min-width: 160px;
 }
 
-// glitch for names
-// .glitch{
-//   color:white;
-//   font-size:100px;
-//   position:relative;
-//   width:400px;
-//   margin:0 auto;
-// }
-
-
-// @keyframes noise-anim{
-//   $steps:20;
-//   @for $i from 0 through $steps{
-//     #{percentage($i*(1/$steps))}{
-//       clip:rect(random(100)+px,9999px,random(100)+px,0);
-//     }
-//   }
-// }
-
-// .glitch:after{
-//   content:attr(data-text);
-//   position:absolute;
-//   left:2px;
-//   text-shadow:-1px 0 red;
-//   top:0;
-//   color:white;
-//   background:black;
-//   overflow:hidden;
-//   clip:rect(0,900px,0,0); 
-//   animation:noise-anim 2s infinite linear alternate-reverse;
-// }
-
-// @keyframes noise-anim-2{
-//   $steps:20;
-//   @for $i from 0 through $steps{
-//     #{percentage($i*(1/$steps))}{
-//       clip:rect(random(100)+px,9999px,random(100)+px,0);
-//     }
-//   }
-// }
-
-// .glitch:before{
-//   content:attr(data-text);
-//   position:absolute;
-//   left:-2px;
-//   text-shadow:1px 0 blue; 
-//   top:0;
-//   color:white;
-//   background:black;
-//   overflow:hidden;
-//   clip:rect(0,900px,0,0); 
-//   animation:noise-anim-2 3s infinite linear alternate-reverse;
-// }
 
 // glitch-flash (glitch for image)
 .glitch-image {
@@ -380,7 +323,7 @@ body {
   $steps: 20;
   @for $i from 0 through $steps {
     #{percentage($i * (1 / $steps))} {
-      clip: rect(random(2000) + px, 9999px, random(400) + px, 0);
+      clip: rect(random(1000) + px, 9999px, random(400) + px, 0);
     }
   }
 }
@@ -405,7 +348,7 @@ body {
   background: url("../images/me.jpg") no-repeat center;
   background-size: cover;
   animation: glitch-animation 3s infinite linear alternate-reverse,
-             glitch-flash 0.3s infinite ease-in-out;
+             glitch-flash 1.5s infinite ease-in-out;
 }
 
 .glitch-image:before {
@@ -474,7 +417,7 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   &:hover {
     transform: scale(1.05);
-    box-shadow: 0px 4px 40px #4a00b1;
+    box-shadow: 0px 4px 40px #007bff;
   }
 }
 
@@ -485,4 +428,31 @@ body {
     transform: scale(1.05);
     box-shadow: 5px 4px 3px #007bff;
   }
+}
+/* Custom thin black scrollbar */
+.card-scroll {
+  /* Custom scrollbar for WebKit browsers (Chrome, Safari, Edge) */
+  ::-webkit-scrollbar {
+    width: 5px; /* Thin scrollbar */
+  }
+
+  /* Scrollbar track (background) */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+
+  /* Scrollbar thumb (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background-color: #111; 
+    border-radius: 20px;     
+  }
+
+  /* Scrollbar thumb when hovered */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #111;  
+  }
+
+  /* Scrollbar for Firefox */
+  scrollbar-width: thin;   
+  scrollbar-color: #111 transparent; 
 }

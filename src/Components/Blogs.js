@@ -26,7 +26,7 @@ const Blogs = () => {
         </h2>
 
         <Row>
-          <Col md="6" className="mb-4" data-aos="fade-right">
+          <Col md="6" className="mb-4">
             <Card
               className="rounded-4 hover-card"
               style={{
@@ -67,7 +67,7 @@ const Blogs = () => {
             </Card>
           </Col>
 
-          <Col md="6" className="mb-4" data-aos="fade-right">
+          <Col md="6" className="mb-4">
             <Card
               className="rounded-4 hover-card"
               style={{
@@ -108,7 +108,7 @@ const Blogs = () => {
             </Card>
           </Col>
 
-          <Col md="6" data-aos="fade-right">
+          <Col md="6">
             <Card
               className="rounded-4 hover-card"
               style={{

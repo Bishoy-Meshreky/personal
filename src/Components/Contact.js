@@ -113,20 +113,19 @@ const Contact = () => {
             alignItems: "center",
           }}
         >
-          <Col md="6">
+          <Col md="8">
             {showAlert && successMessage && (
-              <div
-                className="status-message alert alert-success mb-4 rounded-5"
-                style={{ width: "auto" }}
-                data-aos="fade-right"
-                role="alert"
-              >
-                {successMessage}
-              </div>
+            <div
+              className="status-message alert alert-success mb-4 rounded-5"
+              style={{ width: "auto" }}
+              data-aos="fade-right"
+              role="alert"
+            >
+              {successMessage}
+            </div>
             )}
 
             <Card
-              data-aos="fade-up"
               className="rounded-4"
               style={{
                 borderColor: "#343a40",

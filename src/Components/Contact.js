@@ -12,7 +12,6 @@ import {
   Label,
   Form,
   FormGroup,
-  Button,
 } from "reactstrap";
 
 const Contact = () => {
@@ -79,7 +78,6 @@ const Contact = () => {
         setShowAlert(true);
       } catch (error) {
         console.error(error);
-        // throw error;
       }
       resetForm();
     },
@@ -115,14 +113,14 @@ const Contact = () => {
         >
           <Col md="8">
             {showAlert && successMessage && (
-            <div
-              className="status-message alert alert-success mb-4 rounded-5"
-              style={{ width: "auto" }}
-              data-aos="fade-right"
-              role="alert"
-            >
-              {successMessage}
-            </div>
+              <div
+                className="status-message alert alert-success mb-4 rounded-5"
+                style={{ width: "auto" }}
+                data-aos="fade-right"
+                role="alert"
+              >
+                {successMessage}
+              </div>
             )}
 
             <Card
@@ -207,17 +205,12 @@ const Contact = () => {
                     ) : null}
                     <Label htmlFor="floatingSelectGrid">Your Message</Label>
                   </FormGroup>
-                  <Button
+                  <button
                     type="submit"
-                    className="btn btn-primary ms-2 mb-3 rounded-5
-                    fw-bold w-md"
-                    style={{
-                      backgroundColor: "#B79A5D",
-                      borderColor: "#B79A5D",
-                    }}
+                    className="send-btn w-md ms-2 mb-3 fw-bold"
                   >
                     Send
-                  </Button>
+                  </button>
                 </Form>
               </CardBody>
             </Card>

@@ -5,7 +5,6 @@ import {
   CardBody,
   CardTitle,
   CardText,
-  Button,
   Container,
   Row,
   Col,
@@ -47,21 +46,14 @@ const Blogs = () => {
                 </CardTitle>
                 <CardText>Published Date: August 2024</CardText>
                 <div>
-                  <Button
-                    className="rounded-5 fw-bold"
-                    style={{
-                      backgroundColor: "#B79A5D",
-                      borderColor: "#B79A5D",
-                      display: "flex",
-                      flexDirection: "row",
-                      flexWrap: "nowrap",
-                      justifyContent: "center",
-                    }}
+                  <a
+                    className="rounded-5 fw-bold style-btn w-md"
                     target="_blank"
                     href="https://medium.com/@beshoymeshreky2013/rest-api-vs-restful-api-whats-the-difference-b5a6500368bb"
+                    rel="noopener noreferrer"
                   >
-                    Read
-                  </Button>
+                    Read Me
+                  </a>
                 </div>
               </CardBody>
             </Card>
@@ -88,21 +80,14 @@ const Blogs = () => {
                 </CardTitle>
                 <CardText>Published Date: August 2024</CardText>
                 <div>
-                  <Button
-                    className="rounded-5 fw-bold"
-                    style={{
-                      backgroundColor: "#B79A5D",
-                      borderColor: "#B79A5D",
-                      display: "flex",
-                      flexDirection: "row",
-                      flexWrap: "nowrap",
-                      justifyContent: "center",
-                    }}
+                  <a
+                    className="rounded-5 fw-bold style-btn w-md"
                     target="_blank"
                     href="https://medium.com/@beshoymeshreky2013/what-is-a-ci-cd-pipeline-71a6bdf6781d"
+                    rel="noopener noreferrer"
                   >
-                    Read
-                  </Button>
+                    Read Me
+                  </a>
                 </div>
               </CardBody>
             </Card>
@@ -129,21 +114,14 @@ const Blogs = () => {
                 </CardTitle>
                 <CardText>Published Date: August 2024</CardText>
                 <div>
-                  <Button
-                    className="rounded-5 fw-bold"
-                    style={{
-                      backgroundColor: "#B79A5D",
-                      borderColor: "#B79A5D",
-                      display: "flex",
-                      flexDirection: "row",
-                      flexWrap: "nowrap",
-                      justifyContent: "center",
-                    }}
+                  <a
+                    className="rounded-5 fw-bold style-btn w-md"
                     target="_blank"
                     href="https://medium.com/@beshoymeshreky2013/what-are-react-hooks-for-beginners-d223afe26817"
+                    rel="noopener noreferrer"
                   >
-                    Read
-                  </Button>
+                    Read Me
+                  </a>
                 </div>
               </CardBody>
             </Card>

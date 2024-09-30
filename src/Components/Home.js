@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import {
@@ -98,6 +97,7 @@ const Home = () => {
                   <Link
                     to="https://www.linkedin.com/in/bishoymeshreky/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="mt-3"
                     style={{
                       color: "white",
@@ -110,6 +110,7 @@ const Home = () => {
                     to="https://wa.me/+201271793373?text=Please%20leave%20your%20message%20along%20with%20your%20name,%20company%20name,%20and%20email%20address.%20Thank%20you!"
                     target="_blank"
                     className="rounded-5 btn-sm fw-bold mt-3 ms-4"
+                    rel="noopener noreferrer"
                     style={{
                       color: "white",
                       fontSize: "20px",
@@ -121,6 +122,7 @@ const Home = () => {
                     to="https://medium.com/@beshoymeshreky2013"
                     target="_blank"
                     className="rounded-5 btn-sm fw-bold mt-3 ms-4"
+                    rel="noopener noreferrer"
                     style={{
                       color: "white",
                       fontSize: "20px",
@@ -131,6 +133,7 @@ const Home = () => {
                   <a
                     href="mailto:meshreky.beshoy@gmail.com"
                     className="rounded-5 btn-sm fw-bold mt-3 ms-4"
+                    rel="noopener noreferrer"
                     style={{
                       color: "white",
                       fontSize: "20px",
@@ -155,35 +158,15 @@ const Home = () => {
                     to="https://s3.me-central-1.amazonaws.com/www.bishoymeshreky.com/Bishoy-Meshreky-CV.pdf"
                     download="Bishoy Meshreky CV.pdf"
                     target="_blank"
-                    style={{
-                      textDecoration: "none",
-                      backgroundColor: "transparent",
-                      color: "#B79A5D",
-                      padding: "10px 20px",
-                      border: "2px solid #B79A5D",
-                      borderRadius: "25px",
-                      display: "inline-block",
-                      transition: "background-color 0.3s, color 0.3s",
-                    }}
+                    rel="noopener noreferrer"
+                    className="style-btn"
                   >
                     Download CV <FontAwesomeIcon icon={faDownload} />
                   </Link>
                 </Col>
 
                 <Col md="6" className="fw-bold">
-                  <a
-                    href={`#Contact`}
-                    style={{
-                      textDecoration: "none",
-                      backgroundColor: "transparent",
-                      color: "#B79A5D",
-                      padding: "10px 20px",
-                      border: "2px solid #B79A5D",
-                      borderRadius: "25px",
-                      display: "inline-block",
-                      transition: "background-color 0.3s, color 0.3s",
-                    }}
-                  >
+                  <a href={`#Contact`} className="style-btn">
                     Contact Me <FontAwesomeIcon icon={faPhone} />
                   </a>
                 </Col>

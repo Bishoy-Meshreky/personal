@@ -30,7 +30,7 @@ const Home = () => {
         <Row>
           <header className="App-header">
             <Card
-              className="rounded-5 mb-4"
+              className="rounded-5 mb-3"
               style={{
                 borderColor: "#343a40",
                 backgroundColor: "rgb(37 37 37 / 70%)",

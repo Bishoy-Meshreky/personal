@@ -67,6 +67,10 @@ body {
   & h2 {
     text-align: center;
     margin-bottom: 20px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #9000ff, #9000ff, #9000ff, #FFFFFF, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   & p {
@@ -104,6 +108,13 @@ body {
     text-align: center;
   }
 }
+// with about
+.gradient-text {
+  font-weight: bold;
+  background: linear-gradient(90deg, #9000ff, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .projects {
   padding: 35px 0px 110px 0px;
@@ -113,6 +124,10 @@ body {
   & h2 {
     text-align: center;
     margin-bottom: 20px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #9000ff, #9000ff, #9000ff, #FFFFFF, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   & h5 {
@@ -140,6 +155,10 @@ body {
   & h2 {
     text-align: center;
     margin-bottom: 20px;
+    font-weight: bold;
+    background: linear-gradient(90deg,  #9000ff, #9000ff, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   & h5 {
@@ -175,15 +194,6 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   border-radius: 8px; 
   justify-content: center;
-}
-
-.custom-hr {
-  flex: 1;
-  height: 5px;
-  background-color: #0078ff;
-  border-radius: 5px; 
-  margin-right: 1rem;
-  width: 95px;
 }
 
 /* Header.css */
@@ -235,7 +245,7 @@ body {
   display: block;
   margin-top: 5px;
   right: 0;
-  background: #B79A5D;
+  background: #7500CC;
   transition: width 0.4s ease;
 }
 
@@ -243,12 +253,12 @@ body {
 .navbar-custom .nav-link.active::after {
   width: 100%;
   left: 0;
-  background: #B79A5D;
+  background: #7500CC;
 }
 
 // under line color in header
 .navbar-custom.navbar-scrolled .nav-link::after {
-  background: #B79A5D;
+  background: #7500CC;
 }
 
 .ml-auto {
@@ -417,7 +427,7 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   &:hover {
     transform: scale(1.05);
-    box-shadow: 0px 4px 40px #007bff;
+    box-shadow: 0px 4px 40px #7500CC;
   }
 }
 
@@ -426,9 +436,10 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   &:hover {
     transform: scale(1.05);
-    box-shadow: 5px 4px 3px #007bff;
+    box-shadow: 5px 4px 3px #7500CC;
   }
 }
+
 /* Custom thin black scrollbar */
 .card-scroll {
   /* Custom scrollbar for WebKit browsers (Chrome, Safari, Edge) */
@@ -460,9 +471,9 @@ body {
 .style-btn {
   position: relative;  
   text-decoration: none;
-  color: #B79A5D;
+  color: #9100fc;
   padding: 10px 20px;
-  border: 2px solid #B79A5D;
+  border: 2px solid #9100fc;
   border-radius: 25px;
   display: inline-block;
   overflow: hidden; 
@@ -476,7 +487,7 @@ body {
   left: 0;
   width: 100%;
   height: 200%;
-  background-color: #B79A5D;  
+  background-color: #9100fc;  
   z-index: -1;  
   transition: width 0.3s ease, height 0.3s ease, top 0.3s ease, left 0.3s ease;  
 }
@@ -493,16 +504,18 @@ body {
 }
 
 .send-btn {
-  color: #B79A5D;  
+  color: white;  
   padding: 10px 20px;
-  border: 2px solid #B79A5D;  
+  border: 1px solid #7000c3;  
   border-radius: 25px;
-  background-color: transparent;  
+  background-color: #7000c3;  
   display: inline-block;
   transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 .send-btn:hover {
-  background-color: #B79A5D;  
+  background-color: #59009b;  
   color: white;   
 }
+
+

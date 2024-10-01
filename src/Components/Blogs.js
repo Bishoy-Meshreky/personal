@@ -17,12 +17,7 @@ const Blogs = () => {
   return (
     <div className="blogs" id="Blogs">
       <Container>
-        <h2 className="section-title mb-4">
-          Blogs on
-          <span className="ms-2 fw-bold" style={{ color: "#B79A5D" }}>
-            Medium
-          </span>
-        </h2>
+        <h2 className="mb-4">Blogs on Medium</h2>
 
         <Row>
           <Col md="6" className="mb-4">

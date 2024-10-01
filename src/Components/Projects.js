@@ -17,12 +17,7 @@ const Work = () => {
   return (
     <div className="projects" id="Work">
       <Container>
-        <h2 className="section-title mb-4 ">
-          My
-          <span className="ms-2 fw-bold" style={{ color: "#B79A5D" }}>
-            Work
-          </span>
-        </h2>
+        <h2 className=" mb-4 ">My Work</h2>
         <Row>
           {/* 2B APP */}
           <Col md="6" className="mb-4">

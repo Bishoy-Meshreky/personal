@@ -95,12 +95,7 @@ const Contact = () => {
   return (
     <div className="contact" id="Contact">
       <Container>
-        <h2 className="section-title mb-4">
-          Contact
-          <span className="ms-2 fw-bold" style={{ color: "#B79A5D" }}>
-            Me
-          </span>
-        </h2>
+        <h2 className="mb-4">Contact Me</h2>
         <Row
           style={{
             display: "flex",
@@ -205,11 +200,8 @@ const Contact = () => {
                     ) : null}
                     <Label htmlFor="floatingSelectGrid">Your Message</Label>
                   </FormGroup>
-                  <button
-                    type="submit"
-                    className="send-btn w-md ms-2 mb-3 fw-bold"
-                  >
-                    Send
+                  <button type="submit" className="send-btn ms-2 mb-3 fw-bold">
+                    Send Message
                   </button>
                 </Form>
               </CardBody>

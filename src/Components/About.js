@@ -67,11 +67,8 @@ const About = () => {
             >
               <CardBody>
                 <div className="d-flex flex-wrap pt-2">
-                  <h2 className="section-title mb-5" style={{ color: "White" }}>
-                    About
-                    <span className="ms-2 fw-bold" style={{ color: "#B79A5D" }}>
-                      Me
-                    </span>
+                  <h2 className="gradient-text mb-5">
+                    About Me
                   </h2>
                   <div className="flex-grow-1">
                     <CardText
@@ -263,8 +260,7 @@ const About = () => {
             </Card>
           </Col>
 
-          {/* TODO: */}
-          <CardText tag="h5" className="fw-bold mt-2">
+          <CardText tag="h4" className="fw-bold mt-2">
             Technologies
           </CardText>
           {technologies.map((tech, index) => (

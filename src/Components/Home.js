@@ -14,6 +14,7 @@ import {
   faLinkedin,
   faWhatsapp,
   faMedium,
+  faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faDownload,
@@ -43,15 +44,16 @@ const Home = () => {
             >
               <div className="glitch-image">
                 <CardImg
-                  className="rounded-5"
                   src={img}
                   alt="Image"
                   style={{
                     height: "100%",
                     width: "100%",
+                    borderTopLeftRadius: "30px",
+                    borderTopRightRadius: "30px",
                   }}
                 />
-              </div>
+             </div>
 
               <div
                 className="position-absolute top-50 start-50 translate-middle text-center"
@@ -92,16 +94,15 @@ const Home = () => {
                     </CardText>
                   </div>
                 </div>
-                {/* Buttons */}
                 <div className="d-flex flex-wrap justify-content-center">
                   <Link
                     to="https://www.linkedin.com/in/bishoymeshreky/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-3"
+                    className="mt-3 move-icon"
                     style={{
                       color: "white",
-                      fontSize: "20px",
+                      fontSize: "25px",
                     }}
                   >
                     <FontAwesomeIcon icon={faLinkedin} />
@@ -109,11 +110,11 @@ const Home = () => {
                   <Link
                     to="https://wa.me/+201271793373?text=Please%20leave%20your%20message%20along%20with%20your%20name,%20company%20name,%20and%20email%20address.%20Thank%20you!"
                     target="_blank"
-                    className="rounded-5 btn-sm fw-bold mt-3 ms-4"
+                    className="rounded-5 btn-sm fw-bold mt-3 ms-4 move-icon"
                     rel="noopener noreferrer"
                     style={{
                       color: "white",
-                      fontSize: "20px",
+                      fontSize: "25px",
                     }}
                   >
                     <FontAwesomeIcon icon={faWhatsapp} />
@@ -121,22 +122,34 @@ const Home = () => {
                   <Link
                     to="https://medium.com/@beshoymeshreky2013"
                     target="_blank"
-                    className="rounded-5 btn-sm fw-bold mt-3 ms-4"
+                    className="rounded-5 btn-sm fw-bold mt-3 ms-4 move-icon"
                     rel="noopener noreferrer"
                     style={{
                       color: "white",
-                      fontSize: "20px",
+                      fontSize: "25px",
                     }}
                   >
                     <FontAwesomeIcon icon={faMedium} />
                   </Link>
-                  <a
-                    href="mailto:meshreky.beshoy@gmail.com"
-                    className="rounded-5 btn-sm fw-bold mt-3 ms-4"
+                  <Link
+                    to="https://github.com/Bishoy-Meshreky"
+                    target="_blank"
+                    className="rounded-5 btn-sm fw-bold mt-3 ms-4 move-icon"
                     rel="noopener noreferrer"
                     style={{
                       color: "white",
-                      fontSize: "20px",
+                      fontSize: "25px",
+                    }}
+                  >
+                    <FontAwesomeIcon icon={faGithub} />
+                  </Link>
+                  <a
+                    href="mailto:meshreky.beshoy@gmail.com"
+                    className="rounded-5 btn-sm fw-bold mt-3 ms-4 move-icon"
+                    rel="noopener noreferrer"
+                    style={{
+                      color: "white",
+                      fontSize: "25px",
                     }}
                   >
                     <FontAwesomeIcon icon={faEnvelope} />

@@ -1,9 +1,8 @@
-@import 'variables';
-@import '~bootstrap/scss/bootstrap';
+@import "variables";
+@import "~bootstrap/scss/bootstrap";
 
 body {
   font-family: $font-family-sans-serif;
-
 }
 
 .navbar {
@@ -36,7 +35,7 @@ body {
 
 .App {
   padding: 68.5px 0;
-  background: url('../images/image.jpg') no-repeat center center;
+  background: url("../images/image.jpg") no-repeat center center;
   background-size: cover;
   color: $light-color;
   height: fit-content;
@@ -45,7 +44,6 @@ body {
   justify-content: center;
   text-align: center;
   overflow: auto;
-
 
   &-content h1 {
     font-size: 3rem;
@@ -56,19 +54,25 @@ body {
   }
 }
 
-
 .contact {
   padding: 20px 0px;
   color: white;
   height: 105vh;
   overflow: hidden;
 
-
   & h2 {
     text-align: center;
     margin-bottom: 20px;
     font-weight: bold;
-    background: linear-gradient(90deg, #9000ff, #9000ff, #9000ff, #FFFFFF, #FFFFFF, #FFFFFF);
+    background: linear-gradient(
+      90deg,
+      #9000ff,
+      #9000ff,
+      #9000ff,
+      #ffffff,
+      #ffffff,
+      #ffffff
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -81,7 +85,6 @@ body {
 .about {
   padding: 35px 0;
   color: white;
-  
 
   & h2 {
     text-align: center;
@@ -111,7 +114,7 @@ body {
 // with about
 .gradient-text {
   font-weight: bold;
-  background: linear-gradient(90deg, #9000ff, #FFFFFF);
+  background: linear-gradient(90deg, #9000ff, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -120,12 +123,20 @@ body {
   padding: 35px 0px 110px 0px;
   color: white;
   height: fit-content;
-  
+
   & h2 {
     text-align: center;
     margin-bottom: 20px;
     font-weight: bold;
-    background: linear-gradient(90deg, #9000ff, #9000ff, #9000ff, #FFFFFF, #FFFFFF, #FFFFFF);
+    background: linear-gradient(
+      90deg,
+      #9000ff,
+      #9000ff,
+      #9000ff,
+      #ffffff,
+      #ffffff,
+      #ffffff
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -150,13 +161,12 @@ body {
   padding: 35px 0px 90px 0px;
   color: $light-color;
   height: fit-content;
-  
 
   & h2 {
     text-align: center;
     margin-bottom: 20px;
     font-weight: bold;
-    background: linear-gradient(90deg,  #9000ff, #9000ff, #FFFFFF, #FFFFFF);
+    background: linear-gradient(90deg, #9000ff, #9000ff, #ffffff, #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -174,13 +184,12 @@ body {
 
 // zoom card in work
 .card-img-zoom {
-  transition: transform 0.3s ease; 
+  transition: transform 0.3s ease;
 }
 
 .card-img-zoom:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
-
 
 .section {
   display: flex;
@@ -189,10 +198,10 @@ body {
 }
 
 .custom-card {
-  width: 100%; 
+  width: 100%;
   max-width: 1000px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
   justify-content: center;
 }
 
@@ -215,7 +224,7 @@ body {
 }
 
 .navbar-custom .navbar-brand:hover {
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 .navbar-custom.navbar-scrolled .navbar-brand {
@@ -223,29 +232,29 @@ body {
 }
 
 .navbar-custom.navbar-scrolled .navbar-brand:hover {
-  color: #0078ff; 
+  color: #0078ff;
 }
 
 .navbar-custom .nav-link {
-  color: #ffffff !important;  
+  color: #ffffff !important;
   margin-right: 15px;
   position: relative;
 }
 
 // haeder words color
 .navbar-custom.navbar-scrolled .nav-link {
-  color: #B79A5D !important;
+  color: #b79a5d !important;
 }
 
 .navbar-custom .nav-link::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   height: 2px;
   display: block;
   margin-top: 5px;
   right: 0;
-  background: #7500CC;
+  background: #7500cc;
   transition: width 0.4s ease;
 }
 
@@ -253,12 +262,12 @@ body {
 .navbar-custom .nav-link.active::after {
   width: 100%;
   left: 0;
-  background: #7500CC;
+  background: #7500cc;
 }
 
 // under line color in header
 .navbar-custom.navbar-scrolled .nav-link::after {
-  background: #7500CC;
+  background: #7500cc;
 }
 
 .ml-auto {
@@ -266,7 +275,7 @@ body {
 }
 
 .w-md {
-  width: 100px; 
+  width: 100px;
 }
 
 .btn-rounded-5 {
@@ -284,19 +293,18 @@ body {
 // mobile size
 @media (max-width: 768px) {
   .card {
-    height: auto; 
+    height: auto;
   }
 
   .avatar-md {
-    height: 7rem; 
+    height: 7rem;
     width: 7rem;
   }
 
   .card-text {
-    font-size: 0.9rem; 
+    font-size: 0.9rem;
   }
 }
-
 
 // Button size
 .w-xs {
@@ -316,7 +324,6 @@ body {
   min-width: 160px;
 }
 
-
 // glitch-flash (glitch for image)
 .glitch-image {
   position: relative;
@@ -333,13 +340,14 @@ body {
   $steps: 20;
   @for $i from 0 through $steps {
     #{percentage($i * (1 / $steps))} {
-      clip: rect(random(1000) + px, 9999px, random(400) + px, 0);
+      clip: rect(random(3000) + px, 9999px, random(400) + px, 0);
     }
   }
 }
 
 @keyframes glitch-flash {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0.75;
   }
   50% {
@@ -355,10 +363,10 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/me.jpg") no-repeat center;
+  background: url("../images/pic.png") no-repeat center;
   background-size: cover;
   animation: glitch-animation 3s infinite linear alternate-reverse,
-             glitch-flash 1.5s infinite ease-in-out;
+    glitch-flash 1.5s infinite ease-in-out;
 }
 
 .glitch-image:before {
@@ -399,35 +407,34 @@ body {
 
 .arrow-button {
   position: fixed;
-  bottom: 2rem; 
-  right: 2rem; 
+  bottom: 2rem;
+  right: 2rem;
   background-color: rgba(62, 68, 86, 0.492);
   color: white;
   border-radius: 50%;
   cursor: pointer;
-  font-size: 20px; 
+  font-size: 20px;
   text-align: center;
   width: 35px;
-  height: 35px; 
+  height: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transition: background-color 0.3s, transform 0.3s;
   animation: jump 0.5s infinite alternate;
 
   &:hover {
     background-color: rgba(62, 68, 86, 0.9);
-    transform: scale(1.1); 
+    transform: scale(1.1);
   }
 }
 
-// small cards
 .technology-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   &:hover {
     transform: scale(1.05);
-    box-shadow: 0px 4px 40px #7500CC;
+    box-shadow: 0px 4px 40px #7500cc;
   }
 }
 
@@ -436,7 +443,7 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   &:hover {
     transform: scale(1.05);
-    box-shadow: 5px 4px 3px #7500CC;
+    box-shadow: 5px 4px 3px #7500cc;
   }
 }
 
@@ -449,73 +456,78 @@ body {
 
   /* Scrollbar track (background) */
   ::-webkit-scrollbar-track {
-    background: transparent; 
+    background: transparent;
   }
 
   /* Scrollbar thumb (the draggable part) */
   ::-webkit-scrollbar-thumb {
-    background-color: #111; 
-    border-radius: 20px;     
+    background-color: #111;
+    border-radius: 20px;
   }
 
   /* Scrollbar thumb when hovered */
   ::-webkit-scrollbar-thumb:hover {
-    background-color: #111;  
+    background-color: #111;
   }
 
   /* Scrollbar for Firefox */
-  scrollbar-width: thin;   
-  scrollbar-color: #111 transparent; 
+  scrollbar-width: thin;
+  scrollbar-color: #111 transparent;
 }
 
 .style-btn {
-  position: relative;  
+  position: relative;
   text-decoration: none;
   color: #9100fc;
   padding: 10px 20px;
   border: 2px solid #9100fc;
   border-radius: 25px;
   display: inline-block;
-  overflow: hidden; 
-  transition: color 0.3s; 
+  overflow: hidden;
+  transition: color 0.3s;
 }
 
 .style-btn::before {
   content: "";
   position: absolute;
-  top: 100%; 
+  top: 100%;
   left: 0;
   width: 100%;
   height: 200%;
-  background-color: #9100fc;  
-  z-index: -1;  
-  transition: width 0.3s ease, height 0.3s ease, top 0.3s ease, left 0.3s ease;  
+  background-color: #9100fc;
+  z-index: -1;
+  transition: width 0.3s ease, height 0.3s ease, top 0.3s ease, left 0.3s ease;
 }
 
 .style-btn:hover::before {
   height: 0%;
-  top: 0; 
-  background-color: white; 
+  top: 0;
+  background-color: white;
 }
 
 .style-btn:hover {
-  color: white;  
+  color: white;
   text-decoration: none;
 }
 
 .send-btn {
-  color: white;  
+  color: white;
   padding: 10px 20px;
-  border: 1px solid #7000c3;  
+  border: 1px solid #7000c3;
   border-radius: 25px;
-  background-color: #7000c3;  
+  background-color: #7000c3;
   display: inline-block;
-  transition: background-color 0.3s ease, color 0.3s ease; 
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .send-btn:hover {
-  background-color: #59009b;  
-  color: white;   
+  background-color: #59009b;
+  color: white;
 }
 
-
+.move-icon {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  &:hover {
+    transform: scale(1.3);
+  }
+}

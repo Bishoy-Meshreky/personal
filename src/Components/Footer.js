@@ -11,7 +11,6 @@ import { Button, CardText, Container } from "reactstrap";
 const Footer = () => {
   return (
     <footer className="text-center text-lg-start" style={{ color: "white" }}>
-      {/* Social Media Section */}
       <Container
         fluid
         className="pt-4"

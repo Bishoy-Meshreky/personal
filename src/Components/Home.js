@@ -55,19 +55,7 @@ const Home = () => {
                 />
               </div>
 
-              <div
-                className="position-absolute top-50 start-50 translate-middle text-center"
-                style={{
-                  width: "100%",
-                  paddingBottom: "7%",
-                  color: "#fff",
-                  marginTop: "8.5rem",
-                  borderColor: "#343a40",
-                  backgroundColor: "rgb(37 37 37 / 7%)",
-                  backdropFilter: "blur(10px)",
-                  WebkitBackdropFilter: "blur(10px)",
-                }}
-              >
+              <div className="blury-card position-absolute top-50 start-50 translate-middle text-center">
                 <CardText tag="h2" className="fw-bold mt-3">
                   Bishoy Meshreky
                 </CardText>
@@ -143,7 +131,7 @@ const Home = () => {
                     }}
                   >
                     <FontAwesomeIcon icon={faMedium} />
-                  </Link>         
+                  </Link>
                   <a
                     href="mailto:meshreky.beshoy@gmail.com"
                     className="rounded-5 btn-sm fw-bold mt-4 ms-4 move-icon"

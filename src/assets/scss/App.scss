@@ -538,3 +538,14 @@ border-radius: 20px;
 padding: 3px 10px;
 color: #111;
 }
+
+.blury-card{
+  width: 100%;
+  padding-bottom: 7%;
+  color: #fff;
+  margin-top: 8.5rem;
+  border-color: #343a40;
+  background-color: rgb(37 37 37 / 7%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}

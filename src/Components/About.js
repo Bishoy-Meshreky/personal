@@ -70,10 +70,7 @@ const About = () => {
                 <div className="d-flex flex-wrap pt-2">
                   <h2 className="gradient-text">About Me</h2>
                   <div className="flex-grow-1 mb-3">
-                  <CardText
-                      tag="h6"
-                      className="text-sm-start mt-2 mb-3"
-                    >
+                    <CardText tag="h6" className="text-sm-start mt-2 mb-3">
                       <FontAwesomeIcon icon={faLocationDot} className="me-3" />
                       <Label
                         className="about-colors"
@@ -81,7 +78,7 @@ const About = () => {
                       >
                         Location
                       </Label>
-                      <span className="fw-normal ms-2" style={{ float: "right" }}>
+                      <span style={{ float: "right" }}>
                         Dubai, United Arab Emirates
                       </span>
                     </CardText>
@@ -93,7 +90,7 @@ const About = () => {
                       >
                         Email
                       </Label>
-                      <span className="fw-normal ms-2" style={{ float: "right" }}>
+                      <span style={{ float: "right" }}>
                         meshreky.beshoy@gmail.com
                       </span>
                     </CardText>
@@ -105,12 +102,12 @@ const About = () => {
                       >
                         Phone
                       </Label>
-                      <span className="fw-normal ms-2" style={{ float: "right" }}>+20 1271793373</span>
+                      <span style={{ float: "right" }}>+20 1271793373</span>
                     </CardText>
                     <CardText tag="h6" className="text-sm-start mb-3">
                       <FontAwesomeIcon icon={faLanguage} className="me-3" />
                       <Label className="about-colors">Languages</Label>
-                      <span className="fw-normal ms-2" style={{ float: "right" }}>Arabic - English</span>
+                      <span style={{ float: "right" }}>Arabic - English</span>
                     </CardText>
                     <CardText tag="h6" className="text-sm-start">
                       <FontAwesomeIcon icon={faIdCard} className="me-3" />
@@ -120,8 +117,8 @@ const About = () => {
                       >
                         Nationality
                       </Label>
-                      <span className="fw-normal ms-2" style={{ float: "right" }}>Egyptian</span>
-                    </CardText>       
+                      <span style={{ float: "right" }}>Egyptian</span>
+                    </CardText>
                   </div>
                 </div>
               </CardBody>

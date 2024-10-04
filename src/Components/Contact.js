@@ -71,7 +71,7 @@ const Contact = () => {
           emailjsServiceId,
           emailjsTemplateId,
           newEmails,
-          "ID"
+          "IDs"
         );
 
         setSuccessMessage("Your message has been sent successfully. Thank you!");

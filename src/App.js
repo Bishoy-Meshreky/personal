@@ -28,7 +28,7 @@ function App() {
 
             <Col md="8">
               <Card
-                className="rounded-5 card-scroll" // Apply custom scroll class here
+                className="rounded-5 card-scroll"
                 style={{
                   borderColor: "#343a40",
                   backgroundColor: "rgb(37 37 37 / 70%)",

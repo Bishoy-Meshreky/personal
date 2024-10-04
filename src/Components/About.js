@@ -8,6 +8,7 @@ import {
   Container,
   Row,
   Progress,
+  Label,
 } from "reactstrap";
 import "../assets/scss/App.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -67,42 +68,60 @@ const About = () => {
             >
               <CardBody>
                 <div className="d-flex flex-wrap pt-2">
-                  <h2 className="gradient-text mb-5">
-                    About Me
-                  </h2>
-                  <div className="flex-grow-1">
-                    <CardText
+                  <h2 className="gradient-text">About Me</h2>
+                  <div className="flex-grow-1 mb-3">
+                  <CardText
                       tag="h6"
-                      className="fw-bold text-sm-start mt-2 mb-4"
+                      className="text-sm-start mt-2 mb-3"
                     >
                       <FontAwesomeIcon icon={faLocationDot} className="me-3" />
-                      Location:
-                      <span className="fw-normal ms-2">
+                      <Label
+                        className="about-colors"
+                        style={{ marginLeft: "6px" }}
+                      >
+                        Location
+                      </Label>
+                      <span className="fw-normal ms-2" style={{ float: "right" }}>
                         Dubai, United Arab Emirates
                       </span>
                     </CardText>
-                    <CardText tag="h6" className="fw-bold text-sm-start mb-4">
-                      <FontAwesomeIcon icon={faPhone} className="me-3" />
-                      Phone:
-                      <span className="fw-normal ms-2">+20 1271793373</span>
-                    </CardText>
-                    <CardText tag="h6" className="fw-bold text-sm-start mb-4">
+                    <CardText tag="h6" className="text-sm-start mb-3">
                       <FontAwesomeIcon icon={faEnvelope} className="me-3" />
-                      Email:
-                      <span className="fw-normal ms-2">
+                      <Label
+                        className="about-colors"
+                        style={{ marginLeft: "3px" }}
+                      >
+                        Email
+                      </Label>
+                      <span className="fw-normal ms-2" style={{ float: "right" }}>
                         meshreky.beshoy@gmail.com
                       </span>
                     </CardText>
-                    <CardText tag="h6" className="fw-bold text-sm-start mb-4">
-                      <FontAwesomeIcon icon={faIdCard} className="me-3" />
-                      Nationality:
-                      <span className="fw-normal ms-2">Egyptian</span>
+                    <CardText tag="h6" className="text-sm-start mb-3">
+                      <FontAwesomeIcon icon={faPhone} className="me-3" />
+                      <Label
+                        className="about-colors"
+                        style={{ marginLeft: "3px" }}
+                      >
+                        Phone
+                      </Label>
+                      <span className="fw-normal ms-2" style={{ float: "right" }}>+20 1271793373</span>
                     </CardText>
-                    <CardText tag="h6" className="fw-bold text-sm-start mb-4">
+                    <CardText tag="h6" className="text-sm-start mb-3">
                       <FontAwesomeIcon icon={faLanguage} className="me-3" />
-                      Languages:
-                      <span className="fw-normal ms-2">Arabic - English</span>
+                      <Label className="about-colors">Languages</Label>
+                      <span className="fw-normal ms-2" style={{ float: "right" }}>Arabic - English</span>
                     </CardText>
+                    <CardText tag="h6" className="text-sm-start">
+                      <FontAwesomeIcon icon={faIdCard} className="me-3" />
+                      <Label
+                        className="about-colors"
+                        style={{ marginLeft: "1px" }}
+                      >
+                        Nationality
+                      </Label>
+                      <span className="fw-normal ms-2" style={{ float: "right" }}>Egyptian</span>
+                    </CardText>       
                   </div>
                 </div>
               </CardBody>

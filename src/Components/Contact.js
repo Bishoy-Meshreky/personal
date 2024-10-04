@@ -74,7 +74,7 @@ const Contact = () => {
           "ID"
         );
 
-        setSuccessMessage("Your email has been sent successfully. Thank you!");
+        setSuccessMessage("Your message has been sent successfully. Thank you!");
         setShowAlert(true);
       } catch (error) {
         console.error(error);
@@ -95,7 +95,7 @@ const Contact = () => {
   return (
     <div className="contact" id="Contact">
       <Container>
-        <h2 className="mb-4">Contact Me</h2>
+        <h2 className="mb-4">Get in Touch</h2>
         <Row
           style={{
             display: "flex",

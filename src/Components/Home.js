@@ -21,7 +21,7 @@ import {
   faEnvelope,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
-import img from "../assets/images/IMG.jpg";
+import img from "../assets/images/pic.png";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -53,7 +53,7 @@ const Home = () => {
                     borderTopRightRadius: "30px",
                   }}
                 />
-             </div>
+              </div>
 
               <div
                 className="position-absolute top-50 start-50 translate-middle text-center"
@@ -68,24 +68,25 @@ const Home = () => {
                   WebkitBackdropFilter: "blur(10px)",
                 }}
               >
-                <CardText
-                  tag="h1"
-                  className="fw-bold mt-3"
-                  style={{ color: "#B79A5D" }}
-                >
+                <CardText tag="h2" className="fw-bold mt-3">
                   Bishoy Meshreky
                 </CardText>
                 <div>
                   <div>
-                    <CardText tag="h3" className="fw-bold">
+                    <CardText
+                      tag="h4"
+                      className="fw-bold"
+                      style={{ color: "#B79A5D" }}
+                    >
                       <TypeAnimation
                         sequence={[
+                          1000,
                           "Software Developer",
-                          2000,
-                          "Web Developer",
                           2000,
                           "Frontend Developer",
                           2000,
+                          "Web Developer",
+                          1000,
                         ]}
                         wrapper="span"
                         cursor={true}
@@ -99,7 +100,7 @@ const Home = () => {
                     to="https://www.linkedin.com/in/bishoymeshreky/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-3 move-icon"
+                    className="mt-4 move-icon"
                     style={{
                       color: "white",
                       fontSize: "25px",
@@ -110,7 +111,7 @@ const Home = () => {
                   <Link
                     to="https://wa.me/+201271793373?text=Please%20leave%20your%20message%20along%20with%20your%20name,%20company%20name,%20and%20email%20address.%20Thank%20you!"
                     target="_blank"
-                    className="rounded-5 btn-sm fw-bold mt-3 ms-4 move-icon"
+                    className="rounded-5 btn-sm fw-bold mt-4 ms-4 move-icon"
                     rel="noopener noreferrer"
                     style={{
                       color: "white",
@@ -120,21 +121,9 @@ const Home = () => {
                     <FontAwesomeIcon icon={faWhatsapp} />
                   </Link>
                   <Link
-                    to="https://medium.com/@beshoymeshreky2013"
-                    target="_blank"
-                    className="rounded-5 btn-sm fw-bold mt-3 ms-4 move-icon"
-                    rel="noopener noreferrer"
-                    style={{
-                      color: "white",
-                      fontSize: "25px",
-                    }}
-                  >
-                    <FontAwesomeIcon icon={faMedium} />
-                  </Link>
-                  <Link
                     to="https://github.com/Bishoy-Meshreky"
                     target="_blank"
-                    className="rounded-5 btn-sm fw-bold mt-3 ms-4 move-icon"
+                    className="rounded-5 btn-sm fw-bold mt-4 ms-4 move-icon"
                     rel="noopener noreferrer"
                     style={{
                       color: "white",
@@ -143,9 +132,21 @@ const Home = () => {
                   >
                     <FontAwesomeIcon icon={faGithub} />
                   </Link>
+                  <Link
+                    to="https://medium.com/@beshoymeshreky2013"
+                    target="_blank"
+                    className="rounded-5 btn-sm fw-bold mt-4 ms-4 move-icon"
+                    rel="noopener noreferrer"
+                    style={{
+                      color: "white",
+                      fontSize: "25px",
+                    }}
+                  >
+                    <FontAwesomeIcon icon={faMedium} />
+                  </Link>         
                   <a
                     href="mailto:meshreky.beshoy@gmail.com"
-                    className="rounded-5 btn-sm fw-bold mt-3 ms-4 move-icon"
+                    className="rounded-5 btn-sm fw-bold mt-4 ms-4 move-icon"
                     rel="noopener noreferrer"
                     style={{
                       color: "white",

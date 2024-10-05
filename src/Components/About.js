@@ -13,7 +13,6 @@ import {
 import "../assets/scss/App.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faIdCard,
   faEnvelope,
   faPhone,
   faLocationDot,
@@ -68,9 +67,12 @@ const About = () => {
             >
               <CardBody>
                 <div className="d-flex flex-wrap pt-2">
-                  <h2 className="gradient-text">About Me</h2>
-                  <div className="flex-grow-1 mb-3">
-                    <CardText tag="h6" className="text-sm-start mt-2 mb-3">
+                  <h2 className="gradient-text mb-4">About Me</h2>
+                  <div
+                    className="flex-grow-1"
+                    style={{ marginBottom: "20px" }}
+                  >
+                    <CardText tag="h6" className="text-sm-start mt-4 mb-4">
                       <FontAwesomeIcon icon={faLocationDot} className="me-3" />
                       <Label
                         className="about-colors"
@@ -82,7 +84,7 @@ const About = () => {
                         Dubai, United Arab Emirates
                       </span>
                     </CardText>
-                    <CardText tag="h6" className="text-sm-start mb-3">
+                    <CardText tag="h6" className="text-sm-start mb-4">
                       <FontAwesomeIcon icon={faEnvelope} className="me-3" />
                       <Label
                         className="about-colors"
@@ -94,7 +96,7 @@ const About = () => {
                         meshreky.beshoy@gmail.com
                       </span>
                     </CardText>
-                    <CardText tag="h6" className="text-sm-start mb-3">
+                    <CardText tag="h6" className="text-sm-start mb-4">
                       <FontAwesomeIcon icon={faPhone} className="me-3" />
                       <Label
                         className="about-colors"
@@ -104,20 +106,10 @@ const About = () => {
                       </Label>
                       <span style={{ float: "right" }}>+20 1271793373</span>
                     </CardText>
-                    <CardText tag="h6" className="text-sm-start mb-3">
+                    <CardText tag="h6" className="text-sm-start">
                       <FontAwesomeIcon icon={faLanguage} className="me-3" />
                       <Label className="about-colors">Languages</Label>
                       <span style={{ float: "right" }}>Arabic - English</span>
-                    </CardText>
-                    <CardText tag="h6" className="text-sm-start">
-                      <FontAwesomeIcon icon={faIdCard} className="me-3" />
-                      <Label
-                        className="about-colors"
-                        style={{ marginLeft: "1px" }}
-                      >
-                        Nationality
-                      </Label>
-                      <span style={{ float: "right" }}>Egyptian</span>
                     </CardText>
                   </div>
                 </div>

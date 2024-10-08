@@ -21,7 +21,7 @@ import {
   faEnvelope,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
-import img from "../assets/images/pic.png";
+import img from "../assets/images/IMG.jpg";
 import { Link } from "react-router-dom";
 
 const Home = () => {

@@ -147,12 +147,13 @@ const Home = () => {
               </div>
 
               <CardFooter
+                className="mb-2"
                 style={{
                   display: "flex",
                   flexDirection: "row",
                   flexWrap: "nowrap",
                   alignItems: "center",
-                  marginTop: "100px",
+                  marginTop: "93px",
                 }}
               >
                 <Col md="6" className="fw-bold">

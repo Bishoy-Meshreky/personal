@@ -42,7 +42,7 @@ const Blogs = () => {
                 <CardText>Published Date: August 2024</CardText>
                 <div>
                   <a
-                    className="rounded-5 fw-bold style-btn w-md"
+                    className="fw-bold style-btn2"
                     target="_blank"
                     href="https://medium.com/@beshoymeshreky2013/rest-api-vs-restful-api-whats-the-difference-b5a6500368bb"
                     rel="noopener noreferrer"
@@ -76,7 +76,7 @@ const Blogs = () => {
                 <CardText>Published Date: August 2024</CardText>
                 <div>
                   <a
-                    className="rounded-5 fw-bold style-btn w-md"
+                    className="fw-bold style-btn2"
                     target="_blank"
                     href="https://medium.com/@beshoymeshreky2013/what-is-a-ci-cd-pipeline-71a6bdf6781d"
                     rel="noopener noreferrer"
@@ -110,7 +110,7 @@ const Blogs = () => {
                 <CardText>Published Date: August 2024</CardText>
                 <div>
                   <a
-                    className="rounded-5 fw-bold style-btn w-md"
+                    className="fw-bold style-btn2"
                     target="_blank"
                     href="https://medium.com/@beshoymeshreky2013/what-are-react-hooks-for-beginners-d223afe26817"
                     rel="noopener noreferrer"

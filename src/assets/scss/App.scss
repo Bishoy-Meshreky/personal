@@ -78,7 +78,7 @@ body {
   }
 
   & p {
-    text-align: center;
+    text-align: start;
   }
 }
 
@@ -254,7 +254,7 @@ body {
   display: block;
   margin-top: 5px;
   right: 0;
-  background: #B79A5D;
+  background: #b79a5d;
   transition: width 0.4s ease;
 }
 
@@ -262,12 +262,12 @@ body {
 .navbar-custom .nav-link.active::after {
   width: 100%;
   left: 0;
-  background: #B79A5D;
+  background: #b79a5d;
 }
 
 // under line color in header
 .navbar-custom.navbar-scrolled .nav-link::after {
-  background: #B79A5D;
+  background: #b79a5d;
 }
 
 .ml-auto {
@@ -338,7 +338,7 @@ body {
 
 // Glitch animation with random clipping
 @keyframes glitch-animation {
-  $steps: 20; 
+  $steps: 20;
   @for $i from 0 through $steps {
     #{percentage($i * (1 / $steps))} {
       clip: rect(random(1000) + px, 9999px, random(400) + px, 0);
@@ -348,7 +348,8 @@ body {
 
 // Flash effect for intensity
 @keyframes glitch-flash {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0.75;
   }
   50% {
@@ -373,18 +374,17 @@ body {
 
 // Blue tinted layer (glitch shift)
 .glitch-image:before {
-  left: -2px; 
+  left: -2px;
   filter: hue-rotate(180deg);
   animation-duration: 3s;
 }
 
 // Red tinted layer (glitch shift)
 .glitch-image:after {
-  left: 2px; 
-  filter: hue-rotate(-45deg); 
+  left: 2px;
+  filter: hue-rotate(-45deg);
   animation-duration: 2.5s;
 }
-
 
 .fade-out {
   animation: fadeOutRight 1s forwards;
@@ -440,7 +440,7 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   &:hover {
     transform: scale(1.05);
-    box-shadow: 0px 4px 40px #7500cc;
+    box-shadow: 0px 4px 40px #3e00f9;
   }
 }
 
@@ -449,7 +449,7 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   &:hover {
     transform: scale(1.05);
-    box-shadow: 5px 4px 3px #7500cc;
+    box-shadow: 5px 4px 3px #3e00f9;
   }
 }
 
@@ -484,9 +484,9 @@ body {
 .style-btn {
   position: relative;
   text-decoration: none;
-  color: #B79A5D;
+  color: #b79a5d;
   padding: 10px 20px;
-  border: 1px solid #B79A5D;
+  border: 1px solid #b79a5d;
   border-radius: 25px;
   display: inline-block;
   overflow: hidden;
@@ -501,7 +501,7 @@ body {
   left: 0;
   width: 100%;
   height: 200%;
-  background-color: #B79A5D;
+  background-color: #b79a5d;
   z-index: -1;
   transition: width 0.3s ease, height 0.3s ease, top 0.3s ease, left 0.3s ease;
 }
@@ -517,13 +517,12 @@ body {
   text-decoration: none;
 }
 
-
 .style-btn2 {
   position: relative;
   text-decoration: none;
   color: #9000ff;
   padding: 10px 20px;
-  border: 1px solid #9000ff;
+  border: 1px solid #3e00f9;
   border-radius: 25px;
   display: inline-block;
   overflow: hidden;
@@ -556,16 +555,17 @@ body {
 
 .send-btn {
   color: white;
-  padding: 10px 20px;
-  border: 1px solid #7000c3;
+  padding: 10px 30px;
+  border: 1px solid #59009b;
   border-radius: 25px;
-  background-color: #7000c3;
+  background-color: #59009b;
   display: inline-block;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .send-btn:hover {
-  background-color: #59009b;
+  background-color: #3e00f9;
+  border: 1px solid #3e00f9;
   color: white;
 }
 
@@ -577,13 +577,13 @@ body {
 }
 
 .about-colors {
-background-color: #B79A5D;
-border-radius: 20px;
-padding: 3px 10px;
-color: #111;
+  background-color: #b79a5d;
+  border-radius: 20px;
+  padding: 3px 10px;
+  color: #111;
 }
 
-.blury-card{
+.blury-card {
   width: 100%;
   padding-bottom: 7%;
   color: #fff;
@@ -592,4 +592,15 @@ color: #111;
   background-color: rgb(37 37 37 / 7%);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+}
+
+.invalid-feedback {
+  display: flex;
+  text-align: start;
+}
+
+.alert-message {
+  display: flex;
+  text-align: start;
+  width: auto;
 }

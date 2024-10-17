@@ -71,10 +71,12 @@ const Contact = () => {
           emailjsServiceId,
           emailjsTemplateId,
           newEmails,
-          "IDs"
+          "Id"
         );
 
-        setSuccessMessage("Your message has been sent successfully. Thank you!");
+        setSuccessMessage(
+          "Your message has been sent successfully. Thank you!"
+        );
         setShowAlert(true);
       } catch (error) {
         console.error(error);
@@ -106,11 +108,10 @@ const Contact = () => {
             alignItems: "center",
           }}
         >
-          <Col md="8">
+          <Col md="10">
             {showAlert && successMessage && (
               <div
-                className="status-message alert alert-success mb-4 rounded-5"
-                style={{ width: "auto" }}
+                className="status-message alert alert-success mb-4 rounded-5 alert-message"
                 data-aos="fade-right"
                 role="alert"
               >

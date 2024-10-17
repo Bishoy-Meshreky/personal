@@ -75,7 +75,7 @@ const About = () => {
                     <CardText tag="h6" className="text-sm-start mt-4 mb-4">
                       <FontAwesomeIcon icon={faLocationDot} className="me-3" />
                       <Label
-                        className="about-colors"
+                        className="about-colors fw-bold"
                         style={{ marginLeft: "6px" }}
                       >
                         Location
@@ -87,7 +87,7 @@ const About = () => {
                     <CardText tag="h6" className="text-sm-start mb-4">
                       <FontAwesomeIcon icon={faEnvelope} className="me-3" />
                       <Label
-                        className="about-colors"
+                        className="about-colors fw-bold"
                         style={{ marginLeft: "3px" }}
                       >
                         Email
@@ -99,7 +99,7 @@ const About = () => {
                     <CardText tag="h6" className="text-sm-start mb-4">
                       <FontAwesomeIcon icon={faPhone} className="me-3" />
                       <Label
-                        className="about-colors"
+                        className="about-colors fw-bold"
                         style={{ marginLeft: "3px" }}
                       >
                         Phone
@@ -108,7 +108,7 @@ const About = () => {
                     </CardText>
                     <CardText tag="h6" className="text-sm-start">
                       <FontAwesomeIcon icon={faLanguage} className="me-3" />
-                      <Label className="about-colors">Languages</Label>
+                      <Label className="about-colors fw-bold">Languages</Label>
                       <span style={{ float: "right" }}>Arabic - English</span>
                     </CardText>
                   </div>

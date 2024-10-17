@@ -71,7 +71,7 @@ const Contact = () => {
           emailjsServiceId,
           emailjsTemplateId,
           newEmails,
-          "Id"
+          "2_hYYWZfyOWdWxgCH"
         );
 
         setSuccessMessage(
@@ -98,16 +98,7 @@ const Contact = () => {
     <div className="contact" id="Contact">
       <Container>
         <h2 className="mb-4">Get in Touch</h2>
-        <Row
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            flexWrap: "nowrap",
-            alignContent: "center",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
+        <Row className="contact-box">
           <Col md="10">
             {showAlert && successMessage && (
               <div

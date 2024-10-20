@@ -3,7 +3,6 @@ import {
   Card,
   CardBody,
   CardText,
-  CardTitle,
   Col,
   Container,
   Row,
@@ -71,10 +70,10 @@ const About = () => {
                 </h2>
                 <div className="d-flex flex-wrap mb-2 mt-4">
                   <div className="flex-grow-1 ms-4 me-4">
-                    <CardText tag="h6" className="text-sm-start mb-4 fw-bold">
+                    <CardText tag="h6" className="text-sm-start mb-4">
                       <FontAwesomeIcon icon={faLocationDot} className="me-3" />
                       <Label
-                        className="about-colors"
+                        className="about-colors fw-bold"
                         style={{ marginLeft: "6px" }}
                       >
                         Location
@@ -83,10 +82,10 @@ const About = () => {
                         Dubai, United Arab Emirates
                       </span>
                     </CardText>
-                    <CardText tag="h6" className="text-sm-start mb-4 fw-bold">
+                    <CardText tag="h6" className="text-sm-start mb-4">
                       <FontAwesomeIcon icon={faEnvelope} className="me-3" />
                       <Label
-                        className="about-colors"
+                        className="about-colors fw-bold"
                         style={{ marginLeft: "3px" }}
                       >
                         Email
@@ -95,19 +94,19 @@ const About = () => {
                         meshreky.beshoy@gmail.com
                       </span>
                     </CardText>
-                    <CardText tag="h6" className="text-sm-start mb-4 fw-bold">
+                    <CardText tag="h6" className="text-sm-start mb-4">
                       <FontAwesomeIcon icon={faPhone} className="me-3" />
                       <Label
-                        className="about-colors"
+                        className="about-colors fw-bold"
                         style={{ marginLeft: "3px" }}
                       >
                         Phone
                       </Label>
                       <span style={{ float: "right" }}>+20 1271793373</span>
                     </CardText>
-                    <CardText tag="h6" className="text-sm-start fw-bold">
+                    <CardText tag="h6" className="text-sm-start">
                       <FontAwesomeIcon icon={faLanguage} className="me-3" />
-                      <Label className="about-colors">Languages</Label>
+                      <Label className="about-colors fw-bold">Languages</Label>
                       <span style={{ float: "right" }}>Arabic - English</span>
                     </CardText>
                   </div>
@@ -136,11 +135,11 @@ const About = () => {
                   style={{ marginBottom: "44px" }}
                 >
                   <CardText tag="h6" className="text-sm-start mb-4 ms-2">
-                    I am a passionate Software Developer with 5 years of
+                    I'm a passionate Software Developer with 5 years of
                     experience specializing in front-end development and web
-                    applications. I have a strong foundation in HTML, CSS, SCSS,
+                    applications. I have a strong foundation in HTML, CSS, Sass,
                     and JavaScript, and I am particularly skilled in using
-                    modern frameworks like React.Js and Next.Js to create responsive,
+                    modern frameworks like ReactJS and NextJS to create responsive,
                     dynamic user interfaces.
                   </CardText>
                   <CardText tag="h6" className="text-sm-start mb-4 ms-2">
@@ -151,7 +150,7 @@ const About = () => {
                     create interactive, robust solutions.
                   </CardText>
                   <CardText tag="h6" className="text-sm-start mb-4 ms-2">
-                    In addition to front-end skills, I am experienced in backend
+                    In addition to front-end skills, I'm experienced in backend
                     technologies like Node.js and have worked with RESTful APIs,
                     cloud platforms such as Google Cloud, Firebase, and AWS. I
                     thrive in Ubuntu environments, leveraging tools like
@@ -186,7 +185,7 @@ const About = () => {
                   </CardText>
 
                   <h6
-                    className="ms-3 mb-4 fw-bold"
+                    className="ms-3 mb-4"
                     style={{ marginTop: "2rem" }}
                   >
                     Programming Languages
@@ -203,7 +202,7 @@ const About = () => {
                   />
 
                   <h6
-                    className="ms-3 mb-4 fw-bold"
+                    className="ms-3 mb-4"
                     style={{ marginTop: "2rem" }}
                   >
                     Problem-Solving and Algorithms
@@ -220,7 +219,7 @@ const About = () => {
                   />
 
                   <h6
-                    className="ms-3 mb-4 fw-bold"
+                    className="ms-3 mb-4"
                     style={{ marginTop: "2rem" }}
                   >
                     Frontend and Backend Development
@@ -237,7 +236,7 @@ const About = () => {
                   />
 
                   <h6
-                    className="ms-3 mb-4 fw-bold"
+                    className="ms-3 mb-4"
                     style={{ marginTop: "2rem" }}
                   >
                     Frameworks and Tools
@@ -254,7 +253,7 @@ const About = () => {
                   />
 
                   <h6
-                    className="ms-3 mb-4 fw-bold"
+                    className="ms-3 mb-4"
                     style={{ marginTop: "2rem" }}
                   >
                     Database Management
@@ -271,7 +270,7 @@ const About = () => {
                   />
 
                   <h6
-                    className="ms-3 mb-4 fw-bold"
+                    className="ms-3 mb-4"
                     style={{ marginTop: "2rem" }}
                   >
                     APIs and Cloud Services
@@ -288,7 +287,7 @@ const About = () => {
                   />
 
                   <h6
-                    className="ms-3 mb-4 fw-bold"
+                    className="ms-3 mb-4"
                     style={{ marginTop: "1.8rem" }}
                   >
                     Version Control Systems

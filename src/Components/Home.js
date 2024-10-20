@@ -45,16 +45,17 @@ const Home = () => {
               </div>
 
               <div className="blury-card position-absolute top-50 start-50 translate-middle text-center">
-                <CardText
-                  tag="h2"
-                  className="fw-bold mt-3"
-                  style={{ color: "#B79A5D" }}
-                >
+                <CardText tag="h1" className="mt-3">
                   Bishoy Meshreky
                 </CardText>
                 <div>
                   <div>
-                    <CardText tag="h4" className="fw-bold">
+                    <CardText
+                      tag="h3"
+                      style={{
+                        color: "#b79a5d",
+                      }}
+                    >
                       <TypeAnimation
                         sequence={[
                           1000,
@@ -72,6 +73,7 @@ const Home = () => {
                     </CardText>
                   </div>
                 </div>
+
                 <div className="d-flex flex-wrap justify-content-center">
                   <Link
                     to="https://www.linkedin.com/in/bishoymeshreky/"

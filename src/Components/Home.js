@@ -30,18 +30,7 @@ const Home = () => {
       <Container fluid>
         <Row>
           <header className="App-header">
-            <Card
-              className="rounded-5 mb-3"
-              style={{
-                borderColor: "#343a40",
-                backgroundColor: "rgb(37 37 37 / 70%)",
-                transform: "skewY(4deg)",
-                transformOrigin: "center",
-                width: "108%",
-                height: "100.5%",
-                marginTop: "-10px",
-              }}
-            >
+            <Card className="angle-card rounded-5">
               <div className="glitch-image">
                 <CardImg
                   src={img}
@@ -147,13 +136,12 @@ const Home = () => {
               </div>
 
               <CardFooter
-                className="mb-2"
                 style={{
                   display: "flex",
                   flexDirection: "row",
                   flexWrap: "nowrap",
                   alignItems: "center",
-                  marginTop: "93px",
+                  margin: "93px 0px 19px",
                 }}
               >
                 <Col md="6" className="fw-bold">

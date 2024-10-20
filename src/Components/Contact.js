@@ -71,7 +71,7 @@ const Contact = () => {
           emailjsServiceId,
           emailjsTemplateId,
           newEmails,
-          "2_hYYWZfyOWdWxgCH"
+          "i"
         );
 
         setSuccessMessage(
@@ -174,7 +174,7 @@ const Contact = () => {
                       id="message"
                       name="message"
                       placeholder="Leave a message here"
-                      style={{ height: "300px" }}
+                      style={{ height: "400px" }}
                       className="form-control rounded-4"
                       value={addEmailMessage.values.message}
                       onChange={addEmailMessage.handleChange}

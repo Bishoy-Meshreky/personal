@@ -82,7 +82,7 @@ body {
   }
 }
 
-.contact-box{
+.contact-box {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -123,7 +123,40 @@ body {
 // with about
 .gradient-text {
   font-weight: bold;
-  background: linear-gradient(90deg, #9000ff, #ffffff);
+  background: linear-gradient(
+    90deg,
+    #9000ff,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text3{
+  background: linear-gradient(
+    90deg,
+    #9000ff,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text2{
+  background: linear-gradient(
+    90deg,
+    #9000ff,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -465,9 +498,9 @@ body {
 /* Custom thin black scrollbar */
 .card-scroll {
   ::-webkit-scrollbar {
-    width: 5px; 
+    width: 5px;
   }
-  
+
   ::-webkit-scrollbar-track {
     background: transparent;
   }
@@ -583,7 +616,7 @@ body {
 .about-colors {
   background-color: #b79a5d;
   border-radius: 20px;
-  padding: 3px 10px;
+  padding: 5px 15px;
   color: #111;
 }
 
@@ -607,4 +640,19 @@ body {
   display: flex;
   text-align: start;
   width: auto;
+}
+
+.angle-card {
+  border-color: #343a40 !important;
+  background-color: rgb(37 37 37 / 70%) !important;
+  transform: skewY(4deg);
+  @media (max-width: 900px) {
+    transform: skewY(0deg);
+    margin-bottom: 10px;
+    width: fit-content;
+  }
+  transform-origin: center;
+  width: 108%;
+  height: 100.5%;
+  margin-top: -10px;
 }

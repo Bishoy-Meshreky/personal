@@ -57,7 +57,7 @@ const About = () => {
     <div className="about" id="About">
       <Container>
         <Row>
-          <Col md="5">
+          <Col md="12">
             <Card
               className="rounded-4 hover-card"
               style={{
@@ -66,16 +66,15 @@ const About = () => {
               }}
             >
               <CardBody>
-                <div className="d-flex flex-wrap pt-2">
-                  <h2 className="gradient-text mb-4">About Me</h2>
-                  <div
-                    className="flex-grow-1"
-                    style={{ marginBottom: "20px" }}
-                  >
-                    <CardText tag="h6" className="text-sm-start mt-4 mb-4">
+                <h2 className="gradient-text text-sm-start ms-3 mt-2">
+                  About Me
+                </h2>
+                <div className="d-flex flex-wrap mb-2 mt-4">
+                  <div className="flex-grow-1 ms-4 me-4">
+                    <CardText tag="h6" className="text-sm-start mb-4 fw-bold">
                       <FontAwesomeIcon icon={faLocationDot} className="me-3" />
                       <Label
-                        className="about-colors fw-bold"
+                        className="about-colors"
                         style={{ marginLeft: "6px" }}
                       >
                         Location
@@ -84,10 +83,10 @@ const About = () => {
                         Dubai, United Arab Emirates
                       </span>
                     </CardText>
-                    <CardText tag="h6" className="text-sm-start mb-4">
+                    <CardText tag="h6" className="text-sm-start mb-4 fw-bold">
                       <FontAwesomeIcon icon={faEnvelope} className="me-3" />
                       <Label
-                        className="about-colors fw-bold"
+                        className="about-colors"
                         style={{ marginLeft: "3px" }}
                       >
                         Email
@@ -96,19 +95,19 @@ const About = () => {
                         meshreky.beshoy@gmail.com
                       </span>
                     </CardText>
-                    <CardText tag="h6" className="text-sm-start mb-4">
+                    <CardText tag="h6" className="text-sm-start mb-4 fw-bold">
                       <FontAwesomeIcon icon={faPhone} className="me-3" />
                       <Label
-                        className="about-colors fw-bold"
+                        className="about-colors"
                         style={{ marginLeft: "3px" }}
                       >
                         Phone
                       </Label>
                       <span style={{ float: "right" }}>+20 1271793373</span>
                     </CardText>
-                    <CardText tag="h6" className="text-sm-start">
+                    <CardText tag="h6" className="text-sm-start fw-bold">
                       <FontAwesomeIcon icon={faLanguage} className="me-3" />
-                      <Label className="about-colors fw-bold">Languages</Label>
+                      <Label className="about-colors">Languages</Label>
                       <span style={{ float: "right" }}>Arabic - English</span>
                     </CardText>
                   </div>
@@ -117,42 +116,59 @@ const About = () => {
             </Card>
           </Col>
 
-          <Col md="7">
+          <Col md="6">
             <Card
-              className="rounded-4 hover-card"
+              className="rounded-4 hover-card mt-4"
               style={{
                 borderColor: "#343a40",
                 backgroundColor: "rgb(37 37 37 / 70%)",
               }}
             >
               <CardBody>
-                <h4 className="fw-bold mb-2 ms-2 mt-2">Summary</h4>
-                <div className="mb-3 mt-2 ms-3 me-4">
-                  <CardText tag="h6" className="text-sm-start mb-3 ms-2 me-2">
-                    Experienced Software Developer with 5 years of experience,
-                    proficient in HTML, CSS, SCSS, React.js, Redux, Jest,
-                    JavaScript, TypeScript, Bootstrap, and AJAX.
+                <CardText
+                  tag="h3"
+                  className="text2 text-sm-start fw-bold mb-2 ms-2 mt-3"
+                >
+                  Summary
+                </CardText>
+                <div
+                  className="mt-4 ms-3 me-4"
+                  style={{ marginBottom: "44px" }}
+                >
+                  <CardText tag="h6" className="text-sm-start mb-4 ms-2">
+                    I am a passionate Software Developer with 5 years of
+                    experience specializing in front-end development and web
+                    applications. I have a strong foundation in HTML, CSS, SCSS,
+                    and JavaScript, and I am particularly skilled in using
+                    modern frameworks like React.Js and Next.Js to create responsive,
+                    dynamic user interfaces.
                   </CardText>
-                  <CardText tag="h6" className="text-sm-start mb-3 ms-2 me-2">
-                    Successfully created web applications, improving page load
-                    times by 60% and boosting user engagement by 70%.
+                  <CardText tag="h6" className="text-sm-start mb-4 ms-2">
+                    Throughout my career, I've developed and optimized web
+                    applications, always focusing on delivering smooth user
+                    experiences and clean, maintainable code. My expertise
+                    extends to TypeScript, Bootstrap, and AJAX, allowing me to
+                    create interactive, robust solutions.
                   </CardText>
-                  <CardText tag="h6" className="text-sm-start mb-3 ms-2 me-4">
-                    Skilled in implementing efficient development practices in
-                    Ubuntu/Linux environments and proficient in tools like
-                    GitHub, RESTful APIs, Node.js, Cloud Firestore Firebase,
-                    Google Cloud Platform, and Amazon Web Services.
+                  <CardText tag="h6" className="text-sm-start mb-4 ms-2">
+                    In addition to front-end skills, I am experienced in backend
+                    technologies like Node.js and have worked with RESTful APIs,
+                    cloud platforms such as Google Cloud, Firebase, and AWS. I
+                    thrive in Ubuntu environments, leveraging tools like
+                    GitHub to manage code and collaborate effectively.
                   </CardText>
-                  <CardText tag="h6" className="text-sm-start ms-2 me-2">
-                    Dedicated to developing user-centric solutions, writing
-                    clean code, and driving innovation.
+                  <CardText tag="h6" className="text-sm-start ms-2 mb-4">
+                    I'm driven by a desire to create user-centric solutions,
+                    continually improving my skills and embracing new
+                    technologies to stay at the forefront of the ever-evolving
+                    tech landscape.
                   </CardText>
                 </div>
               </CardBody>
             </Card>
           </Col>
 
-          <Col md="12">
+          <Col md="6">
             <Card
               className="mt-4 mb-4 rounded-4 hover-card"
               style={{
@@ -162,11 +178,17 @@ const About = () => {
             >
               <CardBody className="mb-4">
                 <div>
-                  <CardTitle tag="h4" className="fw-bold ms-3 mt-3">
+                  <CardText
+                    tag="h3"
+                    className="text3 text-sm-start fw-bold ms-3 mt-3"
+                  >
                     Top Skills
-                  </CardTitle>
+                  </CardText>
 
-                  <h6 className="ms-3 mb-4" style={{ marginTop: "2rem" }}>
+                  <h6
+                    className="ms-3 mb-4 fw-bold"
+                    style={{ marginTop: "2rem" }}
+                  >
                     Programming Languages
                     <span style={{ float: "right" }} className="me-3">
                       90%
@@ -180,7 +202,10 @@ const About = () => {
                     max={100}
                   />
 
-                  <h6 className="ms-3 mb-4" style={{ marginTop: "2rem" }}>
+                  <h6
+                    className="ms-3 mb-4 fw-bold"
+                    style={{ marginTop: "2rem" }}
+                  >
                     Problem-Solving and Algorithms
                     <span style={{ float: "right" }} className="me-3">
                       85%
@@ -194,7 +219,10 @@ const About = () => {
                     max={100}
                   />
 
-                  <h6 className="ms-3 mb-4" style={{ marginTop: "2rem" }}>
+                  <h6
+                    className="ms-3 mb-4 fw-bold"
+                    style={{ marginTop: "2rem" }}
+                  >
                     Frontend and Backend Development
                     <span style={{ float: "right" }} className="me-3">
                       85%
@@ -208,8 +236,11 @@ const About = () => {
                     max={100}
                   />
 
-                  <h6 className="ms-3 mb-4" style={{ marginTop: "2rem" }}>
-                    Software Development Frameworks and Tools
+                  <h6
+                    className="ms-3 mb-4 fw-bold"
+                    style={{ marginTop: "2rem" }}
+                  >
+                    Frameworks and Tools
                     <span style={{ float: "right" }} className="me-3">
                       90%
                     </span>
@@ -222,7 +253,10 @@ const About = () => {
                     max={100}
                   />
 
-                  <h6 className="ms-3 mb-4" style={{ marginTop: "2rem" }}>
+                  <h6
+                    className="ms-3 mb-4 fw-bold"
+                    style={{ marginTop: "2rem" }}
+                  >
                     Database Management
                     <span style={{ float: "right" }} className="me-3">
                       85%
@@ -236,7 +270,10 @@ const About = () => {
                     max={100}
                   />
 
-                  <h6 className="ms-3 mb-4" style={{ marginTop: "2rem" }}>
+                  <h6
+                    className="ms-3 mb-4 fw-bold"
+                    style={{ marginTop: "2rem" }}
+                  >
                     APIs and Cloud Services
                     <span style={{ float: "right" }} className="me-3">
                       80%
@@ -250,7 +287,10 @@ const About = () => {
                     max={100}
                   />
 
-                  <h6 className="ms-3 mb-4" style={{ marginTop: "1.8rem" }}>
+                  <h6
+                    className="ms-3 mb-4 fw-bold"
+                    style={{ marginTop: "1.8rem" }}
+                  >
                     Version Control Systems
                     <span style={{ float: "right" }} className="me-3">
                       85%
@@ -268,7 +308,10 @@ const About = () => {
             </Card>
           </Col>
 
-          <CardText tag="h4" className="fw-bold mt-2">
+          <CardText
+            tag="h3"
+            className="gradient-text text-sm-start fw-bold mt-2"
+          >
             Technologies
           </CardText>
           {technologies.map((tech, index) => (

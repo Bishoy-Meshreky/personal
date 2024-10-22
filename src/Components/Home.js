@@ -45,16 +45,12 @@ const Home = () => {
               </div>
 
               <div className="blury-card position-absolute top-50 start-50 translate-middle text-center">
-                <CardText
-                  tag="h1"
-                  className="mt-3"
-                  style={{ color: "#25d366" }}
-                >
+                <CardText tag="h1" className="mt-3">
                   Bishoy Meshreky
                 </CardText>
                 <div>
                   <div>
-                    <CardText tag="h3">
+                    <CardText tag="h3" style={{ color: "#ffae00" }}>
                       <TypeAnimation
                         sequence={[
                           1000,

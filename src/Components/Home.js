@@ -45,17 +45,16 @@ const Home = () => {
               </div>
 
               <div className="blury-card position-absolute top-50 start-50 translate-middle text-center">
-                <CardText tag="h1" className="mt-3">
+                <CardText
+                  tag="h1"
+                  className="mt-3"
+                  style={{ color: "#25d366" }}
+                >
                   Bishoy Meshreky
                 </CardText>
                 <div>
                   <div>
-                    <CardText
-                      tag="h3"
-                      style={{
-                        color: "#b79a5d",
-                      }}
-                    >
+                    <CardText tag="h3">
                       <TypeAnimation
                         sequence={[
                           1000,
@@ -80,10 +79,7 @@ const Home = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-4 move-icon"
-                    style={{
-                      color: "white",
-                      fontSize: "25px",
-                    }}
+                    style={{ fontSize: "28px" }}
                   >
                     <FontAwesomeIcon icon={faLinkedin} />
                   </Link>
@@ -92,10 +88,7 @@ const Home = () => {
                     target="_blank"
                     className="rounded-5 btn-sm fw-bold mt-4 ms-4 move-icon"
                     rel="noopener noreferrer"
-                    style={{
-                      color: "white",
-                      fontSize: "25px",
-                    }}
+                    style={{ fontSize: "28px" }}
                   >
                     <FontAwesomeIcon icon={faWhatsapp} />
                   </Link>
@@ -104,10 +97,7 @@ const Home = () => {
                     target="_blank"
                     className="rounded-5 btn-sm fw-bold mt-4 ms-4 move-icon"
                     rel="noopener noreferrer"
-                    style={{
-                      color: "white",
-                      fontSize: "25px",
-                    }}
+                    style={{ fontSize: "28px" }}
                   >
                     <FontAwesomeIcon icon={faGithub} />
                   </Link>
@@ -116,10 +106,7 @@ const Home = () => {
                     target="_blank"
                     className="rounded-5 btn-sm fw-bold mt-4 ms-4 move-icon"
                     rel="noopener noreferrer"
-                    style={{
-                      color: "white",
-                      fontSize: "25px",
-                    }}
+                    style={{ fontSize: "28px" }}
                   >
                     <FontAwesomeIcon icon={faMedium} />
                   </Link>
@@ -127,10 +114,7 @@ const Home = () => {
                     href="mailto:meshreky.beshoy@gmail.com"
                     className="rounded-5 btn-sm fw-bold mt-4 ms-4 move-icon"
                     rel="noopener noreferrer"
-                    style={{
-                      color: "white",
-                      fontSize: "25px",
-                    }}
+                    style={{ fontSize: "28px" }}
                   >
                     <FontAwesomeIcon icon={faEnvelope} />
                   </a>

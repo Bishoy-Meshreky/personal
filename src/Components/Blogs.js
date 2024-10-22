@@ -10,7 +10,7 @@ import {
   Col,
 } from "reactstrap";
 import pic from "../assets/images/react-hooks.jpg";
-import pic1 from "../assets/images/cicd4.jpg";
+import pic1 from "../assets/images/cicd.jpg";
 import pic2 from "../assets/images/REST-API-and-RESTful-API.jpg";
 
 const Blogs = () => {

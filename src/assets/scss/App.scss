@@ -131,32 +131,20 @@ body {
     #ffffff,
     #ffffff,
     #ffffff,
-    #ffffff,
+    #ffffff
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.text3{
-  background: linear-gradient(
-    90deg,
-    #9000ff,
-    #ffffff,
-    #ffffff,
-    #ffffff,
-  );
+.text3 {
+  background: linear-gradient(90deg, #9000ff, #ffffff, #ffffff, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.text2{
-  background: linear-gradient(
-    90deg,
-    #9000ff,
-    #ffffff,
-    #ffffff,
-    #ffffff,
-  );
+.text2 {
+  background: linear-gradient(90deg, #9000ff, #ffffff, #ffffff, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -333,7 +321,7 @@ body {
 }
 
 // mobile size
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .card {
     height: auto;
   }
@@ -607,9 +595,11 @@ body {
 }
 
 .move-icon {
+  color: #b79a5d;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   &:hover {
     transform: scale(1.3);
+    color: white;
   }
 }
 

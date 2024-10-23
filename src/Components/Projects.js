@@ -19,7 +19,6 @@ const Work = () => {
       <Container>
         <h2 className=" mb-4 ">My Work</h2>
         <Row>
-          {/* 2B APP */}
           <Col md="6" className="mb-4">
             <Card
               className="rounded-4 hover-card"
@@ -49,7 +48,7 @@ const Work = () => {
               </CardBody>
             </Card>
           </Col>
-          {/* Garson App */}
+
           <Col md="6">
             <Card
               className="rounded-4 hover-card"

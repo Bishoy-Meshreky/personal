@@ -595,10 +595,9 @@ body {
 }
 
 .move-icon {
-  color: white;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #dc143c;
   &:hover {
-    transform: scale(1.3);
+    color: white;
   }
 }
 

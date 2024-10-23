@@ -45,12 +45,17 @@ const Home = () => {
               </div>
 
               <div className="blury-card position-absolute top-50 start-50 translate-middle text-center">
-                <CardText tag="h1" className="mt-3">
+                <CardText
+                  tag="h1"
+                  className="mt-3"
+                  style={{ color: "#25d366" }}
+                  data-aos="zoom-in"
+                >
                   Bishoy Meshreky
                 </CardText>
                 <div>
                   <div>
-                    <CardText tag="h3" style={{ color: "#ffae00" }}>
+                    <CardText tag="h3">
                       <TypeAnimation
                         sequence={[
                           1000,
@@ -69,13 +74,19 @@ const Home = () => {
                   </div>
                 </div>
 
-                <div className="d-flex flex-wrap justify-content-center">
+                <div
+                  className="d-flex flex-wrap justify-content-center"
+                 
+                >
                   <Link
                     to="https://www.linkedin.com/in/bishoymeshreky/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-4 move-icon"
-                    style={{ fontSize: "28px" }}
+                    style={{ fontSize: "30px" }}
+                    data-aos="fade-right"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-duration="1500"
                   >
                     <FontAwesomeIcon icon={faLinkedin} />
                   </Link>
@@ -84,7 +95,10 @@ const Home = () => {
                     target="_blank"
                     className="rounded-5 btn-sm fw-bold mt-4 ms-4 move-icon"
                     rel="noopener noreferrer"
-                    style={{ fontSize: "28px" }}
+                    style={{ fontSize: "30px" }}
+                    data-aos="fade-right"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-duration="1300"
                   >
                     <FontAwesomeIcon icon={faWhatsapp} />
                   </Link>
@@ -93,7 +107,10 @@ const Home = () => {
                     target="_blank"
                     className="rounded-5 btn-sm fw-bold mt-4 ms-4 move-icon"
                     rel="noopener noreferrer"
-                    style={{ fontSize: "28px" }}
+                    style={{ fontSize: "30px" }}
+                    data-aos="fade-right"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-duration="1100"
                   >
                     <FontAwesomeIcon icon={faGithub} />
                   </Link>
@@ -102,7 +119,10 @@ const Home = () => {
                     target="_blank"
                     className="rounded-5 btn-sm fw-bold mt-4 ms-4 move-icon"
                     rel="noopener noreferrer"
-                    style={{ fontSize: "28px" }}
+                    style={{ fontSize: "30px" }}
+                    data-aos="fade-right"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-duration="900"
                   >
                     <FontAwesomeIcon icon={faMedium} />
                   </Link>
@@ -110,7 +130,10 @@ const Home = () => {
                     href="mailto:meshreky.beshoy@gmail.com"
                     className="rounded-5 btn-sm fw-bold mt-4 ms-4 move-icon"
                     rel="noopener noreferrer"
-                    style={{ fontSize: "28px" }}
+                    style={{ fontSize: "30px" }}
+                    data-aos="fade-right"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-duration="700"
                   >
                     <FontAwesomeIcon icon={faEnvelope} />
                   </a>

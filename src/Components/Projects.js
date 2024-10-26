@@ -17,7 +17,7 @@ const Work = () => {
   return (
     <div className="projects" id="Work">
       <Container>
-        <h2 className=" mb-4 ">My Work</h2>
+        <h2 className="mb-4">My Work</h2>
         <Row>
           <Col md="6" className="mb-4">
             <Card

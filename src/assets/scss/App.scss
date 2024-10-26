@@ -65,14 +65,18 @@ body {
     margin-bottom: 20px;
     font-weight: bold;
     background: linear-gradient(
-      90deg,
-      #9000ff,
-      #9000ff,
-      #9000ff,
-      #ffffff,
-      #ffffff,
-      #ffffff
-    );
+    74deg, 
+    #0062ff 0%, 
+    #8137d5 9%, 
+    #d96570 20%, 
+    #d96570 24%, 
+    #8137d5 35%, 
+    #0062ff 44%, 
+    #8137d5 50%, 
+    #d96570 56%, 
+    rgba(37, 37, 37, 0.7) 75%, 
+    rgba(37, 37, 37, 0.7) 100%
+  );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -124,27 +128,56 @@ body {
 .gradient-text {
   font-weight: bold;
   background: linear-gradient(
-    90deg,
-    #9000ff,
-    #ffffff,
-    #ffffff,
-    #ffffff,
-    #ffffff,
-    #ffffff,
-    #ffffff
+    74deg, 
+    #0062ff 0%, 
+    #8137d5 9%, 
+    #d96570 20%, 
+    #d96570 24%, 
+    #8137d5 35%, 
+    #0062ff 44%, 
+    #8137d5 50%, 
+    #d96570 56%, 
+    rgba(37, 37, 37, 0.7) 75%, 
+    rgba(37, 37, 37, 0.7) 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .text3 {
-  background: linear-gradient(90deg, #9000ff, #ffffff, #ffffff, #ffffff);
+  font-weight: bold;
+  background: linear-gradient(
+    74deg, 
+    #0062ff 0%, 
+    #8137d5 9%, 
+    #d96570 20%, 
+    #d96570 24%, 
+    #d96570 35%, 
+    #0062ff 44%, 
+    #8137d5 50%, 
+    #d96570 56%, 
+    rgba(37, 37, 37, 0.7) 75%, 
+    rgba(37, 37, 37, 0.7) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .text2 {
-  background: linear-gradient(90deg, #9000ff, #ffffff, #ffffff, #ffffff);
+  font-weight: bold;
+  background: linear-gradient(
+    74deg, 
+    #0062ff 0%, 
+    #8137d5 9%, 
+    #d96570 20%, 
+    #d96570 24%, 
+    #d96570 35%, 
+    #0062ff 44%, 
+    #8137d5 50%, 
+    #d96570 56%, 
+    rgba(37, 37, 37, 0.7) 75%, 
+    rgba(37, 37, 37, 0.7) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -159,13 +192,17 @@ body {
     margin-bottom: 20px;
     font-weight: bold;
     background: linear-gradient(
-      90deg,
-      #9000ff,
-      #9000ff,
-      #9000ff,
-      #ffffff,
-      #ffffff,
-      #ffffff
+      74deg, 
+      #0062ff 0%, 
+      #8137d5 9%, 
+      #d96570 20%, 
+      #d96570 24%, 
+      #8137d5 35%, 
+      #0062ff 44%, 
+      #8137d5 50%, 
+      #d96570 56%, 
+      rgba(37, 37, 37, 0.7) 75%, 
+      rgba(37, 37, 37, 0.7) 100%
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -196,7 +233,19 @@ body {
     text-align: center;
     margin-bottom: 20px;
     font-weight: bold;
-    background: linear-gradient(90deg, #9000ff, #9000ff, #ffffff, #ffffff);
+    background: linear-gradient(
+      74deg, 
+      #0062ff 0%, 
+      #8137d5 9%, 
+      #d96570 20%, 
+      #d96570 24%, 
+      #0062ff 35%, 
+      #8137d5 44%, 
+      #8137d5 50%, 
+      #d96570 56%, 
+      rgba(37, 37, 37, 0.7) 75%, 
+      rgba(37, 37, 37, 0.7) 100%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -284,7 +333,7 @@ body {
   display: block;
   margin-top: 5px;
   right: 0;
-  background: #b79a5d;
+  background: #9000ff;
   transition: width 0.4s ease;
 }
 
@@ -292,12 +341,12 @@ body {
 .navbar-custom .nav-link.active::after {
   width: 100%;
   left: 0;
-  background: #b79a5d;
+  background: #3e00f9;
 }
 
 // under line color in header
 .navbar-custom.navbar-scrolled .nav-link::after {
-  background: #b79a5d;
+  background: #3e00f9;
 }
 
 .ml-auto {
@@ -509,9 +558,9 @@ body {
 .style-btn {
   position: relative;
   text-decoration: none;
-  color: #b79a5d;
+  color: #9000ff;
   padding: 10px 20px;
-  border: 1px solid #b79a5d;
+  border: 1px solid #3e00f9;
   border-radius: 25px;
   display: inline-block;
   overflow: hidden;
@@ -526,7 +575,7 @@ body {
   left: 0;
   width: 100%;
   height: 200%;
-  background-color: #b79a5d;
+  background-color: #9000ff;
   z-index: -1;
   transition: width 0.3s ease, height 0.3s ease, top 0.3s ease, left 0.3s ease;
 }
@@ -602,10 +651,10 @@ body {
 }
 
 .about-colors {
-  background-color: #b79a5d;
+  background-color: #0062ff;
   border-radius: 20px;
   padding: 5px 15px;
-  color: #111;
+  color: white;
 }
 
 .blury-card {

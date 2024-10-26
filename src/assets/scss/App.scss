@@ -68,12 +68,12 @@ body {
     74deg, 
     #0062ff 0%, 
     #8137d5 9%, 
-    #d96570 20%, 
-    #d96570 24%, 
+    #ff4154 20%, 
+    #ff4154 24%, 
     #8137d5 35%, 
     #0062ff 44%, 
     #8137d5 50%, 
-    #d96570 56%, 
+    #ff4154 56%, 
     rgba(37, 37, 37, 0.7) 75%, 
     rgba(37, 37, 37, 0.7) 100%
   );
@@ -131,12 +131,12 @@ body {
     74deg, 
     #0062ff 0%, 
     #8137d5 9%, 
-    #d96570 20%, 
-    #d96570 24%, 
+    #ff4154 20%, 
+    #ff4154 24%, 
     #8137d5 35%, 
     #0062ff 44%, 
     #8137d5 50%, 
-    #d96570 56%, 
+    #ff4154 56%, 
     rgba(37, 37, 37, 0.7) 75%, 
     rgba(37, 37, 37, 0.7) 100%
   );
@@ -150,12 +150,12 @@ body {
     74deg, 
     #0062ff 0%, 
     #8137d5 9%, 
-    #d96570 20%, 
-    #d96570 24%, 
-    #d96570 35%, 
+    #ff4154 20%, 
+    #ff4154 24%, 
+    #ff4154 35%, 
     #0062ff 44%, 
     #8137d5 50%, 
-    #d96570 56%, 
+    #ff4154 56%, 
     rgba(37, 37, 37, 0.7) 75%, 
     rgba(37, 37, 37, 0.7) 100%
   );
@@ -169,12 +169,12 @@ body {
     74deg, 
     #0062ff 0%, 
     #8137d5 9%, 
-    #d96570 20%, 
-    #d96570 24%, 
-    #d96570 35%, 
+    #ff4154 20%, 
+    #ff4154 24%, 
+    #ff4154 35%, 
     #0062ff 44%, 
     #8137d5 50%, 
-    #d96570 56%, 
+    #ff4154 56%, 
     rgba(37, 37, 37, 0.7) 75%, 
     rgba(37, 37, 37, 0.7) 100%
   );
@@ -195,12 +195,12 @@ body {
       74deg, 
       #0062ff 0%, 
       #8137d5 9%, 
-      #d96570 20%, 
-      #d96570 24%, 
+      #ff4154 20%, 
+      #ff4154 24%, 
       #8137d5 35%, 
       #0062ff 44%, 
       #8137d5 50%, 
-      #d96570 56%, 
+      #ff4154 56%, 
       rgba(37, 37, 37, 0.7) 75%, 
       rgba(37, 37, 37, 0.7) 100%
     );
@@ -237,13 +237,13 @@ body {
       74deg, 
       #0062ff 0%, 
       #8137d5 9%, 
-      #d96570 20%, 
-      #d96570 24%, 
+      #ff4154 20%, 
+      #ff4154 24%, 
       #0062ff 35%, 
       #8137d5 44%, 
       #8137d5 50%, 
-      #d96570 56%, 
-      rgba(37, 37, 37, 0.7) 75%, 
+      #ff4154 56%, 
+      #ff4154 75%, 
       rgba(37, 37, 37, 0.7) 100%
     );
     -webkit-background-clip: text;
@@ -558,9 +558,9 @@ body {
 .style-btn {
   position: relative;
   text-decoration: none;
-  color: #9000ff;
+  color: #0062ff;
   padding: 10px 20px;
-  border: 1px solid #3e00f9;
+  border: 1px solid #0062ff;
   border-radius: 25px;
   display: inline-block;
   overflow: hidden;
@@ -575,7 +575,7 @@ body {
   left: 0;
   width: 100%;
   height: 200%;
-  background-color: #9000ff;
+  background-color: #0062ff;
   z-index: -1;
   transition: width 0.3s ease, height 0.3s ease, top 0.3s ease, left 0.3s ease;
 }
@@ -594,9 +594,9 @@ body {
 .style-btn2 {
   position: relative;
   text-decoration: none;
-  color: #9000ff;
+  color: #0062ff;
   padding: 10px 20px;
-  border: 1px solid #3e00f9;
+  border: 1px solid #0062ff;
   border-radius: 25px;
   display: inline-block;
   overflow: hidden;
@@ -611,7 +611,7 @@ body {
   left: 0;
   width: 100%;
   height: 200%;
-  background-color: #9000ff;
+  background-color: #0062ff;
   z-index: -1;
   transition: width 0.3s ease, height 0.3s ease, top 0.3s ease, left 0.3s ease;
 }
@@ -628,9 +628,9 @@ body {
 }
 
 .send-btn {
-  color: #9000ff;
+  color: #0062ff;
   padding: 10px 30px;
-  border: 1px solid #3e00f9;
+  border: 1px solid #0062ff;
   border-radius: 25px;
   background-color: rgba(37, 37, 37, 0.7);
   display: inline-block;
@@ -638,13 +638,13 @@ body {
 }
 
 .send-btn:hover {
-  background-color: #3e00f9;
-  border: 1px solid #3e00f9;
+  background-color: #0062ff;
+  border: 1px solid #0062ff;
   color: white;
 }
 
 .move-icon {
-  color: #dc143c;
+  color: #ff4154;
   &:hover {
     color: white;
   }

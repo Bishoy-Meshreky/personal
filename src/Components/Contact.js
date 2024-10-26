@@ -71,7 +71,7 @@ const Contact = () => {
           emailjsServiceId,
           emailjsTemplateId,
           newEmails,
-          "i"
+          "id"
         );
 
         setSuccessMessage(

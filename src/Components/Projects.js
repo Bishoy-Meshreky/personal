@@ -35,7 +35,7 @@ const Work = () => {
                 alt="2B Egypt App"
               />
               <CardBody className="rounded-4">
-                <CardTitle tag="h5" className="fw-bold ms-2">
+                <CardTitle tag="h5" className="text-pro fw-bold ms-2">
                   2B Egypt
                 </CardTitle>
                 <CardText tag="h6" className="text-sm-start mt-4 ms-4">
@@ -65,7 +65,7 @@ const Work = () => {
                 alt="Garson App"
               />
               <CardBody className="rounded-4">
-                <CardTitle tag="h5" className="fw-bold ms-2">
+                <CardTitle tag="h5" className="text-pro fw-bold ms-2">
                   Garson App
                 </CardTitle>
                 <CardText tag="h6" className="text-sm-start mt-4 ms-4">

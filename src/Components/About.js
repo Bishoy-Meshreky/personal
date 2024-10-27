@@ -126,7 +126,7 @@ const About = () => {
               <CardBody>
                 <CardText
                   tag="h3"
-                  className="text2 text-sm-start fw-bold mb-2 ms-2 mt-3"
+                  className="text-pro text-sm-start fw-bold mb-2 ms-2 mt-3"
                 >
                   Summary
                 </CardText>
@@ -179,7 +179,7 @@ const About = () => {
                 <div>
                   <CardText
                     tag="h3"
-                    className="text3 text-sm-start fw-bold ms-3 mt-3"
+                    className="text-pro text-sm-start fw-bold ms-3 mt-3"
                   >
                     Top Skills
                   </CardText>
@@ -309,7 +309,7 @@ const About = () => {
 
           <CardText
             tag="h3"
-            className="gradient-text text-sm-start fw-bold mt-2"
+            className="text-pro text-sm-start fw-bold mt-2"
           >
             Technologies
           </CardText>

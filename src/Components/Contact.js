@@ -99,7 +99,7 @@ const Contact = () => {
       <Container>
         <h2 className="mb-4">Get in Touch</h2>
         <Row className="contact-box">
-          <Col md="10">
+          <Col md="12">
             {showAlert && successMessage && (
               <div
                 className="status-message alert alert-success mb-4 rounded-5 alert-message"
@@ -165,7 +165,7 @@ const Contact = () => {
                       </div>
                     ) : null}
 
-                    <Label htmlFor="floatingSelectGrid">Email address</Label>
+                    <Label htmlFor="floatingSelectGrid">Email Address</Label>
                   </FormGroup>
 
                   <FormGroup className="form-floating mb-4 ms-2 me-2">
@@ -174,7 +174,7 @@ const Contact = () => {
                       id="message"
                       name="message"
                       placeholder="Leave a message here"
-                      style={{ height: "400px" }}
+                      style={{ height: "300px" }}
                       className="form-control rounded-4"
                       value={addEmailMessage.values.message}
                       onChange={addEmailMessage.handleChange}
@@ -192,8 +192,8 @@ const Contact = () => {
                     ) : null}
                     <Label htmlFor="floatingSelectGrid">Your Message</Label>
                   </FormGroup>
-                  <button type="submit" className="send-btn ms-2 mb-3 fw-bold">
-                    Send Message
+                  <button type="submit" className="send-btn fw-bold">
+                    SEND MESSAGE
                   </button>
                 </Form>
               </CardBody>

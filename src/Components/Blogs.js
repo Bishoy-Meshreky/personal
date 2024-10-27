@@ -36,7 +36,7 @@ const Blogs = () => {
                 alt=""
               />
               <CardBody className="rounded-4">
-                <CardTitle tag="h5" className="fw-bold mb-4">
+                <CardTitle tag="h5" className="text-pro fw-bold mb-4">
                   REST API vs RESTful
                 </CardTitle>
                 <CardText>Published Date: August 2024</CardText>
@@ -70,7 +70,7 @@ const Blogs = () => {
                 alt=""
               />
               <CardBody className="rounded-4">
-                <CardTitle tag="h5" className="fw-bold mb-4">
+                <CardTitle tag="h5" className="text-pro fw-bold mb-4">
                   What is a (CI/CD) Pipeline?
                 </CardTitle>
                 <CardText>Published Date: August 2024</CardText>
@@ -104,7 +104,7 @@ const Blogs = () => {
                 alt="2B Egypt App"
               />
               <CardBody className="rounded-4">
-                <CardTitle tag="h5" className="fw-bold mb-4">
+                <CardTitle tag="h5" className="text-pro fw-bold mb-4">
                   What are React Hooks?
                 </CardTitle>
                 <CardText>Published Date: August 2024</CardText>

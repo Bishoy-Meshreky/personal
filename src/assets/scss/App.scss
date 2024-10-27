@@ -57,7 +57,7 @@ body {
 .contact {
   padding: 20px 0px;
   color: white;
-  height: 105vh;
+  height: auto;
   overflow: hidden;
 
   & h2 {
@@ -65,18 +65,18 @@ body {
     margin-bottom: 20px;
     font-weight: bold;
     background: linear-gradient(
-    74deg, 
-    #0062ff 0%, 
-    #8137d5 9%, 
-    #ff4154 20%, 
-    #ff4154 24%, 
-    #8137d5 35%, 
-    #0062ff 44%, 
-    #8137d5 50%, 
-    #ff4154 56%, 
-    rgba(37, 37, 37, 0.7) 75%, 
-    rgba(37, 37, 37, 0.7) 100%
-  );
+      74deg,
+      #0062ff 0%,
+      #8137d5 9%,
+      #ff4154 20%,
+      #ff4154 24%,
+      #8137d5 35%,
+      #0062ff 44%,
+      #8137d5 50%,
+      #ff4154 56%,
+      rgba(37, 37, 37, 0.7) 75%,
+      rgba(37, 37, 37, 0.7) 100%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -128,54 +128,16 @@ body {
 .gradient-text {
   font-weight: bold;
   background: linear-gradient(
-    74deg, 
-    #0062ff 0%, 
-    #8137d5 9%, 
-    #ff4154 20%, 
-    #ff4154 24%, 
-    #8137d5 35%, 
-    #0062ff 44%, 
-    #8137d5 50%, 
-    #ff4154 56%, 
-    rgba(37, 37, 37, 0.7) 75%, 
-    rgba(37, 37, 37, 0.7) 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.text3 {
-  font-weight: bold;
-  background: linear-gradient(
-    74deg, 
-    #0062ff 0%, 
-    #8137d5 9%, 
-    #ff4154 20%, 
-    #ff4154 24%, 
-    #ff4154 35%, 
-    #0062ff 44%, 
-    #8137d5 50%, 
-    #ff4154 56%, 
-    rgba(37, 37, 37, 0.7) 75%, 
-    rgba(37, 37, 37, 0.7) 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.text2 {
-  font-weight: bold;
-  background: linear-gradient(
-    74deg, 
-    #0062ff 0%, 
-    #8137d5 9%, 
-    #ff4154 20%, 
-    #ff4154 24%, 
-    #ff4154 35%, 
-    #0062ff 44%, 
-    #8137d5 50%, 
-    #ff4154 56%, 
-    rgba(37, 37, 37, 0.7) 75%, 
+    74deg,
+    #0062ff 0%,
+    #8137d5 9%,
+    #ff4154 20%,
+    #ff4154 24%,
+    #8137d5 35%,
+    #0062ff 44%,
+    #8137d5 50%,
+    #ff4154 56%,
+    rgba(37, 37, 37, 0.7) 75%,
     rgba(37, 37, 37, 0.7) 100%
   );
   -webkit-background-clip: text;
@@ -192,16 +154,16 @@ body {
     margin-bottom: 20px;
     font-weight: bold;
     background: linear-gradient(
-      74deg, 
-      #0062ff 0%, 
-      #8137d5 9%, 
-      #ff4154 20%, 
-      #ff4154 24%, 
-      #8137d5 35%, 
-      #0062ff 44%, 
-      #8137d5 50%, 
-      #ff4154 56%, 
-      rgba(37, 37, 37, 0.7) 75%, 
+      74deg,
+      #0062ff 0%,
+      #8137d5 9%,
+      #ff4154 20%,
+      #ff4154 24%,
+      #8137d5 35%,
+      #0062ff 44%,
+      #8137d5 50%,
+      #ff4154 56%,
+      rgba(37, 37, 37, 0.7) 75%,
       rgba(37, 37, 37, 0.7) 100%
     );
     -webkit-background-clip: text;
@@ -234,16 +196,16 @@ body {
     margin-bottom: 20px;
     font-weight: bold;
     background: linear-gradient(
-      74deg, 
-      #0062ff 0%, 
-      #8137d5 9%, 
-      #ff4154 20%, 
-      #ff4154 24%, 
-      #0062ff 35%, 
-      #8137d5 44%, 
-      #8137d5 50%, 
-      #ff4154 56%, 
-      #ff4154 75%, 
+      74deg,
+      #0062ff 0%,
+      #8137d5 9%,
+      #ff4154 20%,
+      #ff4154 24%,
+      #0062ff 35%,
+      #8137d5 44%,
+      #8137d5 50%,
+      #ff4154 56%,
+      #ff4154 75%,
       rgba(37, 37, 37, 0.7) 100%
     );
     -webkit-background-clip: text;
@@ -628,9 +590,10 @@ body {
 }
 
 .send-btn {
-  color: #0062ff;
+  color: white;
+  text-align: start;
   padding: 10px 30px;
-  border: 1px solid #0062ff;
+  border: 0px solid #0062ff;
   border-radius: 25px;
   background-color: rgba(37, 37, 37, 0.7);
   display: inline-block;
@@ -638,15 +601,16 @@ body {
 }
 
 .send-btn:hover {
-  background-color: #0062ff;
-  border: 1px solid #0062ff;
-  color: white;
+  border: 0px solid #0062ff;
+  color: #0062ff;
 }
 
 .move-icon {
-  color: #ff4154;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   &:hover {
-    color: white;
+    transform: scale(1.3);
+    color: #0062ff;
   }
 }
 
@@ -682,7 +646,7 @@ body {
 .angle-card {
   border-color: #343a40 !important;
   background-color: rgb(37 37 37 / 70%) !important;
-  transform: skewY(4deg);
+  transform: skewY(5deg);
   @media (max-width: 900px) {
     transform: skewY(0deg);
     margin-bottom: 10px;
@@ -691,5 +655,12 @@ body {
   transform-origin: center;
   width: 108%;
   height: 100.5%;
-  margin-top: -10px;
+  margin-top: -14px;
+}
+
+.text-pro {
+  font-weight: bold;
+  background: #0062ff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

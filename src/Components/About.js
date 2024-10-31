@@ -53,7 +53,7 @@ const About = () => {
   ];
 
   return (
-    <div className="about" id="About">
+    <div className="about" id="ABOUT">
       <Container>
         <Row>
           <Col md="12">

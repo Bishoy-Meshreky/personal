@@ -15,7 +15,7 @@ import "../assets/scss/App.scss";
 
 const Work = () => {
   return (
-    <div className="projects" id="Work">
+    <div className="projects" id="WORK">
       <Container>
         <h2 className="mb-4">My Work</h2>
         <Row>

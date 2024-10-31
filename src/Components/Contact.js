@@ -16,7 +16,6 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
-
 const Contact = () => {
   const [successMessage, setSuccessMessage] = useState("");
   const [showAlert, setShowAlert] = useState(false);
@@ -74,7 +73,7 @@ const Contact = () => {
           emailjsServiceId,
           emailjsTemplateId,
           newEmails,
-          "id"
+          "Id"
         );
 
         setSuccessMessage(
@@ -98,7 +97,7 @@ const Contact = () => {
   }, [showAlert]);
 
   return (
-    <div className="contact" id="Contact">
+    <div className="contact" id="CONTACT">
       <Container>
         <h2 className="mb-4">Get in Touch</h2>
         <Row className="contact-box">

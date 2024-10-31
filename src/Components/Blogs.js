@@ -13,16 +13,11 @@ import pic from "../assets/images/react-hooks.jpg";
 import pic1 from "../assets/images/cicd.jpg";
 import pic2 from "../assets/images/REST-API-and-RESTful-API.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faArrowUpRightFromSquare,
-  faDownload,
-  faEnvelope,
-  faPhone,
-} from "@fortawesome/free-solid-svg-icons";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 const Blogs = () => {
   return (
-    <div className="blogs" id="Blogs">
+    <div className="blogs" id="BLOGS">
       <Container>
         <h2 className="mb-4">Blogs on Medium</h2>
 

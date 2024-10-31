@@ -12,6 +12,13 @@ import {
 import pic from "../assets/images/react-hooks.jpg";
 import pic1 from "../assets/images/cicd.jpg";
 import pic2 from "../assets/images/REST-API-and-RESTful-API.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faArrowUpRightFromSquare,
+  faDownload,
+  faEnvelope,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Blogs = () => {
   return (
@@ -47,7 +54,11 @@ const Blogs = () => {
                     href="https://medium.com/@beshoymeshreky2013/rest-api-vs-restful-api-whats-the-difference-b5a6500368bb"
                     rel="noopener noreferrer"
                   >
-                    Read Me
+                    READ ME
+                    <FontAwesomeIcon
+                      className="ms-2"
+                      icon={faArrowUpRightFromSquare}
+                    />
                   </a>
                 </div>
               </CardBody>
@@ -81,7 +92,11 @@ const Blogs = () => {
                     href="https://medium.com/@beshoymeshreky2013/what-is-a-ci-cd-pipeline-71a6bdf6781d"
                     rel="noopener noreferrer"
                   >
-                    Read Me
+                    READ ME
+                    <FontAwesomeIcon
+                      className="ms-2"
+                      icon={faArrowUpRightFromSquare}
+                    />
                   </a>
                 </div>
               </CardBody>
@@ -115,7 +130,11 @@ const Blogs = () => {
                     href="https://medium.com/@beshoymeshreky2013/what-are-react-hooks-for-beginners-d223afe26817"
                     rel="noopener noreferrer"
                   >
-                    Read Me
+                    READ ME
+                    <FontAwesomeIcon
+                      className="ms-2"
+                      icon={faArrowUpRightFromSquare}
+                    />
                   </a>
                 </div>
               </CardBody>

@@ -134,13 +134,13 @@ const Home = () => {
                     rel="noopener noreferrer"
                     className="style-btn"
                   >
-                    Download CV <FontAwesomeIcon icon={faDownload} />
+                    DOWNLOAD CV <FontAwesomeIcon icon={faDownload} />
                   </Link>
                 </Col>
 
                 <Col md="6" className="fw-bold">
-                  <a href={`#Contact`} className="style-btn">
-                    Contact Me <FontAwesomeIcon icon={faPhone} />
+                  <a href={`#Contact`} className="style-btn" >
+                    CONTACT ME <FontAwesomeIcon icon={faPhone} />
                   </a>
                 </Col>
               </CardFooter>

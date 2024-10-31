@@ -13,6 +13,9 @@ import {
   Form,
   FormGroup,
 } from "reactstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+
 
 const Contact = () => {
   const [successMessage, setSuccessMessage] = useState("");
@@ -193,7 +196,7 @@ const Contact = () => {
                     <Label htmlFor="floatingSelectGrid">Your Message</Label>
                   </FormGroup>
                   <button type="submit" className="send-btn fw-bold">
-                    SEND MESSAGE
+                    SEND MESSAGE <FontAwesomeIcon icon={faPaperPlane} />
                   </button>
                 </Form>
               </CardBody>

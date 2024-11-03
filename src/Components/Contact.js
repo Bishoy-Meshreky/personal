@@ -73,7 +73,7 @@ const Contact = () => {
           emailjsServiceId,
           emailjsTemplateId,
           newEmails,
-          "Id"
+          "i"
         );
 
         setSuccessMessage(

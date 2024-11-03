@@ -41,7 +41,9 @@ const Blogs = () => {
                 <CardTitle tag="h5" className="text-pro fw-bold mb-4">
                   REST API vs RESTful
                 </CardTitle>
-                <CardText>Published Date: August 2024</CardText>
+                <CardText>
+                  <span className="fw-bold">Published Date:</span> August 2024
+                </CardText>
                 <div>
                   <a
                     className="fw-bold style-btn2"
@@ -79,7 +81,9 @@ const Blogs = () => {
                 <CardTitle tag="h5" className="text-pro fw-bold mb-4">
                   What is a (CI/CD) Pipeline?
                 </CardTitle>
-                <CardText>Published Date: August 2024</CardText>
+                <CardText>
+                  <span className="fw-bold">Published Date:</span> August 2024
+                </CardText>
                 <div>
                   <a
                     className="fw-bold style-btn2"
@@ -117,7 +121,9 @@ const Blogs = () => {
                 <CardTitle tag="h5" className="text-pro fw-bold mb-4">
                   What are React Hooks?
                 </CardTitle>
-                <CardText>Published Date: August 2024</CardText>
+                <CardText>
+                  <span className="fw-bold">Published Date:</span> August 2024
+                </CardText>
                 <div>
                   <a
                     className="fw-bold style-btn2"

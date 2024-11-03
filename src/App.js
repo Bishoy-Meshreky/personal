@@ -20,7 +20,7 @@ function App() {
     <React.StrictMode>
       <div className="App">
         <Container fluid>
-        <Header />
+          <Header />
           <Row>
             <Col>
               <Home />

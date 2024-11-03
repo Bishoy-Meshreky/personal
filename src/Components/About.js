@@ -33,8 +33,19 @@ import typeScript from "../assets/images/typescript-icon-svgrepo-com.svg";
 import jest from "../assets/images/jest-snapshot-svgrepo-com.svg";
 import fireStore from "../assets/images/Primary_Vertical_Lockup_Full_Color.svg";
 import googleCloud from "../assets/images/google-cloud-svgrepo-com.svg";
+import { motion } from "framer-motion";
 
 const About = () => {
+  const cardVariantsLeft = {
+    hidden: { opacity: 0, x: -50 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
+  };
+
+  const cardVariantsUp = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+  };
+
   const technologies = [
     { icon: faReact, color: "#61DBFB" },
     { icon: nextJs, color: "#000000", isCustom: true },
@@ -78,7 +89,11 @@ const About = () => {
                       >
                         Location
                       </Label>
-                      <span style={{ float: "right" }}>
+                      <span
+                        style={{ float: "right" }}
+                        data-aos="fade-right"
+                        data-aos-duration="800"
+                      >
                         Dubai, United Arab Emirates
                       </span>
                     </CardText>
@@ -90,7 +105,11 @@ const About = () => {
                       >
                         Email
                       </Label>
-                      <span style={{ float: "right" }}>
+                      <span
+                        style={{ float: "right" }}
+                        data-aos="fade-right"
+                        data-aos-duration="1000"
+                      >
                         meshreky.beshoy@gmail.com
                       </span>
                     </CardText>
@@ -102,12 +121,24 @@ const About = () => {
                       >
                         Phone
                       </Label>
-                      <span style={{ float: "right" }}>+20 1271793373</span>
+                      <span
+                        style={{ float: "right" }}
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                      >
+                        +20 1271793373
+                      </span>
                     </CardText>
                     <CardText tag="h6" className="text-sm-start">
                       <FontAwesomeIcon icon={faLanguage} className="me-3" />
                       <Label className="about-colors fw-bold">Languages</Label>
-                      <span style={{ float: "right" }}>Arabic - English</span>
+                      <span
+                        style={{ float: "right" }}
+                        data-aos="fade-right"
+                        data-aos-duration="1400"
+                      >
+                        Arabic - English
+                      </span>
                     </CardText>
                   </div>
                 </div>
@@ -135,32 +166,61 @@ const About = () => {
                   style={{ marginBottom: "44px" }}
                 >
                   <CardText tag="h6" className="text-sm-start mb-4 ms-2">
-                    I'm a passionate Software Developer with 5 years of
-                    experience specializing in front-end development and web
-                    applications. I have a strong foundation in HTML, CSS, Sass,
-                    and JavaScript, and I am particularly skilled in using
-                    modern frameworks like ReactJS and NextJS to create responsive,
-                    dynamic user interfaces.
+                    <motion.div
+                      initial="hidden"
+                      whileInView="visible"
+                      variants={cardVariantsUp}
+                      viewport={{ once: true }}
+                    >
+                      I'm a passionate Software Developer with 5 years of
+                      experience specializing in front-end development and web
+                      applications. I have a strong foundation in HTML, CSS,
+                      Sass, and JavaScript, and I am particularly skilled in
+                      using modern frameworks like ReactJS and NextJS to create
+                      responsive, dynamic user interfaces.
+                    </motion.div>
                   </CardText>
                   <CardText tag="h6" className="text-sm-start mb-4 ms-2">
-                    Throughout my career, I've developed and optimized web
-                    applications, always focusing on delivering smooth user
-                    experiences and clean, maintainable code. My expertise
-                    extends to TypeScript, Bootstrap, and AJAX, allowing me to
-                    create interactive, robust solutions.
+                    <motion.div
+                      initial="hidden"
+                      whileInView="visible"
+                      variants={cardVariantsUp}
+                      viewport={{ once: true }}
+                    >
+                      Throughout my career, I've developed and optimized web
+                      applications, always focusing on delivering smooth user
+                      experiences and clean, maintainable code. My expertise
+                      extends to TypeScript, Bootstrap, and AJAX, allowing me to
+                      create interactive, robust solutions.
+                    </motion.div>
                   </CardText>
                   <CardText tag="h6" className="text-sm-start mb-4 ms-2">
-                    In addition to front-end skills, I'm experienced in backend
-                    technologies like Node.js and have worked with RESTful APIs,
-                    cloud platforms such as Google Cloud, Firebase, and AWS. I
-                    thrive in Ubuntu environments, leveraging tools like
-                    GitHub to manage code and collaborate effectively.
+                    <motion.div
+                      initial="hidden"
+                      whileInView="visible"
+                      variants={cardVariantsUp}
+                      viewport={{ once: true }}
+                    >
+                      In addition to front-end skills, I'm experienced in
+                      backend technologies like Node.js and have worked with
+                      RESTful APIs, cloud platforms such as Google Cloud,
+                      Firebase, and AWS. I thrive in Ubuntu environments,
+                      leveraging tools like GitHub to manage code and
+                      collaborate effectively.
+                    </motion.div>
                   </CardText>
                   <CardText tag="h6" className="text-sm-start ms-2 mb-4">
-                    I'm driven by a desire to create user-centric solutions,
-                    continually improving my skills and embracing new
-                    technologies to stay at the forefront of the ever-evolving
-                    tech landscape.
+                    <motion.div
+                      initial="hidden"
+                      whileInView="visible"
+                      variants={cardVariantsUp}
+                      viewport={{ once: true }}
+                    >
+                      I'm driven by a desire to create user-centric solutions,
+                      continually improving my skills and embracing new
+                      technologies to stay at the forefront of the ever-evolving
+                      tech landscape.
+                    </motion.div>
                   </CardText>
                 </div>
               </CardBody>
@@ -183,134 +243,158 @@ const About = () => {
                   >
                     Top Skills
                   </CardText>
-
-                  <h6
-                    className="ms-3 mb-4"
-                    style={{ marginTop: "2rem" }}
+                  <motion.div
+                    initial="hidden"
+                    whileInView="visible"
+                    variants={cardVariantsUp}
+                    viewport={{ once: true }}
                   >
-                    Programming Languages
-                    <span style={{ float: "right" }} className="me-3">
-                      90%
-                    </span>
-                  </h6>
-                  <Progress
-                    className="mb-4 ms-3 me-3"
-                    style={{ height: "5px" }}
-                    value={90}
-                    min={1}
-                    max={100}
-                  />
+                    <h6 className="ms-3 mb-4" style={{ marginTop: "2rem" }}>
+                      Programming Languages
+                      <span style={{ float: "right" }} className="me-3">
+                        90%
+                      </span>
+                    </h6>
+                    <Progress
+                      className="mb-4 ms-3 me-3"
+                      style={{ height: "5px" }}
+                      value={90}
+                      min={1}
+                      max={100}
+                    />
+                  </motion.div>
 
-                  <h6
-                    className="ms-3 mb-4"
-                    style={{ marginTop: "2rem" }}
+                  <motion.div
+                    initial="hidden"
+                    whileInView="visible"
+                    variants={cardVariantsUp}
+                    viewport={{ once: true }}
                   >
-                    Problem-Solving and Algorithms
-                    <span style={{ float: "right" }} className="me-3">
-                      85%
-                    </span>
-                  </h6>
-                  <Progress
-                    className="mb-4 ms-3 me-3"
-                    style={{ height: "5px" }}
-                    value={85}
-                    min={1}
-                    max={100}
-                  />
+                    <h6 className="ms-3 mb-4" style={{ marginTop: "2rem" }}>
+                      Problem-Solving and Algorithms
+                      <span style={{ float: "right" }} className="me-3">
+                        85%
+                      </span>
+                    </h6>
+                    <Progress
+                      className="mb-4 ms-3 me-3"
+                      style={{ height: "5px" }}
+                      value={85}
+                      min={1}
+                      max={100}
+                    />
+                  </motion.div>
 
-                  <h6
-                    className="ms-3 mb-4"
-                    style={{ marginTop: "2rem" }}
+                  <motion.div
+                    initial="hidden"
+                    whileInView="visible"
+                    variants={cardVariantsUp}
+                    viewport={{ once: true }}
                   >
-                    Frontend and Backend Development
-                    <span style={{ float: "right" }} className="me-3">
-                      85%
-                    </span>
-                  </h6>
-                  <Progress
-                    className="mb-4 ms-3 me-3"
-                    style={{ height: "5px" }}
-                    value={85}
-                    min={1}
-                    max={100}
-                  />
+                    <h6 className="ms-3 mb-4" style={{ marginTop: "2rem" }}>
+                      Frontend and Backend Development
+                      <span style={{ float: "right" }} className="me-3">
+                        85%
+                      </span>
+                    </h6>
+                    <Progress
+                      className="mb-4 ms-3 me-3"
+                      style={{ height: "5px" }}
+                      value={85}
+                      min={1}
+                      max={100}
+                    />
+                  </motion.div>
 
-                  <h6
-                    className="ms-3 mb-4"
-                    style={{ marginTop: "2rem" }}
+                  <motion.div
+                    initial="hidden"
+                    whileInView="visible"
+                    variants={cardVariantsUp}
+                    viewport={{ once: true }}
                   >
-                    Frameworks and Tools
-                    <span style={{ float: "right" }} className="me-3">
-                      90%
-                    </span>
-                  </h6>
-                  <Progress
-                    className="mb-4 ms-3 me-3"
-                    style={{ height: "5px" }}
-                    value={90}
-                    min={1}
-                    max={100}
-                  />
+                    <h6 className="ms-3 mb-4" style={{ marginTop: "2rem" }}>
+                      Frameworks and Tools
+                      <span style={{ float: "right" }} className="me-3">
+                        90%
+                      </span>
+                    </h6>
+                    <Progress
+                      className="mb-4 ms-3 me-3"
+                      style={{ height: "5px" }}
+                      value={90}
+                      min={1}
+                      max={100}
+                    />
+                  </motion.div>
 
-                  <h6
-                    className="ms-3 mb-4"
-                    style={{ marginTop: "2rem" }}
+                  <motion.div
+                    initial="hidden"
+                    whileInView="visible"
+                    variants={cardVariantsUp}
+                    viewport={{ once: true }}
                   >
-                    Database Management
-                    <span style={{ float: "right" }} className="me-3">
-                      85%
-                    </span>
-                  </h6>
-                  <Progress
-                    className="mb-4 ms-3 me-3"
-                    style={{ height: "5px" }}
-                    value={85}
-                    min={1}
-                    max={100}
-                  />
+                    <h6 className="ms-3 mb-4" style={{ marginTop: "2rem" }}>
+                      Database Management
+                      <span style={{ float: "right" }} className="me-3">
+                        85%
+                      </span>
+                    </h6>
+                    <Progress
+                      className="mb-4 ms-3 me-3"
+                      style={{ height: "5px" }}
+                      value={85}
+                      min={1}
+                      max={100}
+                    />
+                  </motion.div>
 
-                  <h6
-                    className="ms-3 mb-4"
-                    style={{ marginTop: "2rem" }}
+                  <motion.div
+                    initial="hidden"
+                    whileInView="visible"
+                    variants={cardVariantsUp}
+                    viewport={{ once: true }}
                   >
-                    APIs and Cloud Services
-                    <span style={{ float: "right" }} className="me-3">
-                      80%
-                    </span>
-                  </h6>
-                  <Progress
-                    className="mb-4 ms-3 me-3"
-                    style={{ height: "5px" }}
-                    value={80}
-                    min={1}
-                    max={100}
-                  />
+                    <h6 className="ms-3 mb-4" style={{ marginTop: "2rem" }}>
+                      APIs and Cloud Services
+                      <span style={{ float: "right" }} className="me-3">
+                        80%
+                      </span>
+                    </h6>
+                    <Progress
+                      className="mb-4 ms-3 me-3"
+                      style={{ height: "5px" }}
+                      value={80}
+                      min={1}
+                      max={100}
+                    />
+                  </motion.div>
 
-                  <h6
-                    className="ms-3 mb-4"
-                    style={{ marginTop: "1.8rem" }}
+                  <motion.div
+                    initial="hidden"
+                    whileInView="visible"
+                    variants={cardVariantsUp}
+                    viewport={{ once: true }}
                   >
-                    Version Control Systems
-                    <span style={{ float: "right" }} className="me-3">
-                      85%
-                    </span>
-                  </h6>
-                  <Progress
-                    className="ms-3 me-3"
-                    style={{ height: "5px" }}
-                    value={85}
-                    min={1}
-                    max={100}
-                  />
+                    <h6 className="ms-3 mb-4" style={{ marginTop: "1.8rem" }}>
+                      Version Control Systems
+                      <span style={{ float: "right" }} className="me-3">
+                        85%
+                      </span>
+                    </h6>
+                    <Progress
+                      className="ms-3 me-3"
+                      style={{ height: "5px" }}
+                      value={85}
+                      min={1}
+                      max={100}
+                    />
+                  </motion.div>
                 </div>
               </CardBody>
             </Card>
           </Col>
 
-          <CardText
-            tag="h3"
-            className="text-pro text-sm-start fw-bold mt-2"
-          >
+          <CardText tag="h3" className="text-pro text-sm-start fw-bold mt-2">
             Technologies
           </CardText>
           {technologies.map((tech, index) => (
@@ -321,23 +405,30 @@ const About = () => {
               style={{ width: "10rem" }}
               className="ms-4"
             >
-              <Card className="mb-4 mt-4 text-center rounded-4 technology-card">
-                <CardBody>
-                  {tech.isCustom ? (
-                    <img
-                      src={tech.icon}
-                      alt={tech.name}
-                      style={{ width: "60px", height: "65px" }}
-                    />
-                  ) : (
-                    <FontAwesomeIcon
-                      icon={tech.icon}
-                      size="4x"
-                      color={tech.color}
-                    />
-                  )}
-                </CardBody>
-              </Card>
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                variants={cardVariantsLeft}
+                viewport={{ once: true }}
+              >
+                <Card className="mb-4 mt-4 text-center rounded-4 technology-card">
+                  <CardBody>
+                    {tech.isCustom ? (
+                      <img
+                        src={tech.icon}
+                        alt={tech.name}
+                        style={{ width: "60px", height: "65px" }}
+                      />
+                    ) : (
+                      <FontAwesomeIcon
+                        icon={tech.icon}
+                        size="4x"
+                        color={tech.color}
+                      />
+                    )}
+                  </CardBody>
+                </Card>
+              </motion.div>
             </Col>
           ))}
         </Row>

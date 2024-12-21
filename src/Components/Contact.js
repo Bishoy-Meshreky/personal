@@ -73,7 +73,7 @@ const Contact = () => {
           emailjsServiceId,
           emailjsTemplateId,
           newEmails,
-          "i"
+          "2_hYYWZfyOWdWxgCH"
         );
 
         setSuccessMessage(
@@ -112,13 +112,7 @@ const Contact = () => {
               </div>
             )}
 
-            <Card
-              className="rounded-4"
-              style={{
-                borderColor: "#343a40",
-                backgroundColor: "rgb(37 37 37 / 70%)",
-              }}
-            >
+            <Card className="border-colors rounded-4">
               <CardBody>
                 <Form onSubmit={addEmailMessage.handleSubmit}>
                   <FormGroup className="form-floating mt-4 mb-4 ms-2 me-2">

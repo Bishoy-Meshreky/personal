@@ -139,7 +139,7 @@ const Home = () => {
                 </Col>
 
                 <Col md="6" className="fw-bold">
-                  <a href={`#Contact`} className="style-btn" >
+                  <a href={`#CONTACT`} className="style-btn" >
                     CONTACT ME <FontAwesomeIcon icon={faPhone} />
                   </a>
                 </Col>

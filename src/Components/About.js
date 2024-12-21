@@ -68,13 +68,7 @@ const About = () => {
       <Container>
         <Row>
           <Col md="12">
-            <Card
-              className="rounded-4 hover-card"
-              style={{
-                borderColor: "#343a40",
-                backgroundColor: "rgb(37 37 37 / 70%)",
-              }}
-            >
+            <Card className="border-colors rounded-4">
               <CardBody>
                 <h2 className="gradient-text text-sm-start ms-3 mt-2">
                   About Me
@@ -126,7 +120,7 @@ const About = () => {
                         data-aos="fade-right"
                         data-aos-duration="1200"
                       >
-                        +20 1271793373
+                        +971 508124475
                       </span>
                     </CardText>
                     <CardText tag="h6" className="text-sm-start">
@@ -137,7 +131,7 @@ const About = () => {
                         data-aos="fade-right"
                         data-aos-duration="1400"
                       >
-                        Arabic - English
+                        English - Arabic 
                       </span>
                     </CardText>
                   </div>
@@ -147,13 +141,7 @@ const About = () => {
           </Col>
 
           <Col md="6">
-            <Card
-              className="rounded-4 hover-card mt-4"
-              style={{
-                borderColor: "#343a40",
-                backgroundColor: "rgb(37 37 37 / 70%)",
-              }}
-            >
+            <Card className="border-colors rounded-4 mt-4">
               <CardBody>
                 <CardText
                   tag="h3"
@@ -228,13 +216,7 @@ const About = () => {
           </Col>
 
           <Col md="6">
-            <Card
-              className="mt-4 mb-4 rounded-4 hover-card"
-              style={{
-                borderColor: "#343a40",
-                backgroundColor: "rgb(37 37 37 / 70%)",
-              }}
-            >
+            <Card className="mt-4 mb-4 border-colors rounded-4">
               <CardBody className="mb-4">
                 <div>
                   <CardText
@@ -394,7 +376,7 @@ const About = () => {
             </Card>
           </Col>
 
-          <CardText tag="h3" className="text-pro text-sm-start fw-bold mt-2">
+          <CardText tag="h3" className="text-pro text-sm-center fw-bold mt-2">
             Technologies
           </CardText>
           {technologies.map((tech, index) => (

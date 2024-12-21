@@ -31,7 +31,7 @@ function App() {
                 className="rounded-5 card-scroll"
                 style={{
                   borderColor: "#343a40",
-                  backgroundColor: "rgb(37 37 37 / 70%)",
+                  backgroundColor: "#25252580",
                   height: "43rem",
                   overflowY: "auto",
                 }}

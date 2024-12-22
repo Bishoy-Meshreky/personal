@@ -131,7 +131,7 @@ const About = () => {
                         data-aos="fade-right"
                         data-aos-duration="1400"
                       >
-                        English - Arabic 
+                        English - Arabic
                       </span>
                     </CardText>
                   </div>
@@ -160,12 +160,12 @@ const About = () => {
                       variants={cardVariantsUp}
                       viewport={{ once: true }}
                     >
-                      I'm a passionate Software Developer with 5 years of
-                      experience specializing in front-end development and web
-                      applications. I have a strong foundation in HTML, CSS,
-                      Sass, and JavaScript, and I am particularly skilled in
-                      using modern frameworks like ReactJS and NextJS to create
-                      responsive, dynamic user interfaces.
+                      I'm a passionate Software Developer specializing in
+                      front-end development and web applications. I have a
+                      strong foundation in HTML, CSS, Sass, and JavaScript, and
+                      I am particularly skilled in using modern frameworks like
+                      ReactJS and NextJS to create responsive, dynamic user
+                      interfaces.
                     </motion.div>
                   </CardText>
                   <CardText tag="h6" className="text-sm-start mb-4 ms-2">

@@ -11,7 +11,6 @@ import {
 } from "reactstrap";
 import pic from "../assets/images/Garson.png";
 import pic2 from "../assets/images/2B Egypt.png";
-import pic3 from "../assets/images/LCW.png";
 import "../assets/scss/App.scss";
 import { motion } from "framer-motion";
 
@@ -44,39 +43,17 @@ const Work = () => {
                   <CardTitle tag="h5" className="text-pro fw-bold ms-2">
                     Garson App
                   </CardTitle>
-                  <CardText tag="h6" className="text-sm-start mt-3 ms-4 mb-4">
+                  <CardText
+                    tag="h6"
+                    className="text-sm-start mt-3 ms-4"
+                    style={{ marginBottom: "41px" }}
+                  >
                     I have developed the Garson Web Application for managing
-                    restaurant and cafe orders.
+                    restaurant and cafe orders remotly.
                   </CardText>
                   <CardText className="mt-3 mb-2">
-                    <span className="fw-bold">Project Delivered:</span> October
+                    <span className="fw-bold">Project Delivered:</span> November
                     2024
-                  </CardText>
-                </CardBody>
-              </Card>
-            </Col>
-
-            <Col md="6" className="mb-4">
-              <Card className="border-colors rounded-4">
-                <CardImg
-                  className="rounded-4"
-                  top
-                  width="100%"
-                  src={pic3}
-                  alt="Garson App"
-                />
-                <CardBody className="rounded-4">
-                  <CardTitle tag="h5" className="text-pro fw-bold ms-2">
-                    LC Waikiki
-                  </CardTitle>
-                  <CardText tag="h6" className="text-sm-start mt-3 ms-4">
-                    I contributed by enhancing the UI and reducing page load
-                    times for website offering clothing and accessories for men,
-                    women, and children.
-                  </CardText>
-                  <CardText className="mt-2" style={{ marginBottom: "4px" }}>
-                    <span className="fw-bold">Project Delivered:</span> March
-                    2023
                   </CardText>
                 </CardBody>
               </Card>

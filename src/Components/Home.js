@@ -80,7 +80,7 @@ const Home = () => {
                     <FontAwesomeIcon icon={faLinkedin} />
                   </Link>
                   <Link
-                    to="https://wa.me/+971508124475?text=Please%20leave%20your%20message%20along%20with%20[Your%20Name]%20[Your%20Company%20Name]%20[Your%20Email%20Address].%20Thank%20you!"
+                    to="https://wa.me/+971508124475?text=Please%20leave%20your%20message%20along%20with%20Your%20Name,%20Your%20Company%20Name,%20and%20Your%20Email%20Address.%20Thank%20you!"
                     target="_blank"
                     className="rounded-5 btn-sm fw-bold mt-4 ms-4 move-icon"
                     rel="noopener noreferrer"

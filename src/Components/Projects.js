@@ -23,7 +23,7 @@ const Work = () => {
   return (
     <div className="projects" id="PROJECTS">
       <Container>
-        <h2 className="mb-4">My Works</h2>
+        <h2 className="mb-4">My Work</h2>
         <motion.div
           initial="hidden"
           whileInView="visible"

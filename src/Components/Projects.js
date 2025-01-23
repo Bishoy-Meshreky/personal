@@ -49,10 +49,10 @@ const Work = () => {
                     style={{ marginBottom: "41px" }}
                   >
                     I have developed the Garson Web Application for managing
-                    restaurant and cafe orders remotly.
+                    restaurant and cafe orders remotely.
                   </CardText>
                   <CardText className="mt-3 mb-2">
-                    <span className="fw-bold">Project Delivered:</span> November
+                    <span className="fw-bold">Project Delivered:</span> December
                     2024
                   </CardText>
                 </CardBody>

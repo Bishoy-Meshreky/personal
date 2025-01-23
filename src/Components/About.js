@@ -151,7 +151,7 @@ const About = () => {
                 </CardText>
                 <div
                   className="mt-4 ms-3 me-4"
-                  style={{ marginBottom: "44px" }}
+                  style={{ marginBottom: "64px" }}
                 >
                   <CardText tag="h6" className="text-sm-start mb-4 ms-2">
                     <motion.div

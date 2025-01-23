@@ -162,7 +162,7 @@ const About = () => {
                     >
                       I'm a passionate Software Developer specializing in
                       front-end development and web applications. I have a
-                      strong foundation in HTML, CSS, Sass, and JavaScript, and
+                      strong foundation in HTML, CSS, SCSS, and JavaScript, and
                       I am particularly skilled in using modern frameworks like
                       ReactJS and NextJS to create responsive, dynamic user
                       interfaces.
@@ -190,8 +190,8 @@ const About = () => {
                       viewport={{ once: true }}
                     >
                       In addition to front-end skills, I'm experienced in
-                      backend technologies like Node.js and have worked with
-                      RESTful APIs, cloud platforms such as Google Cloud,
+                      backend technologies like Node.js, PHP and have worked
+                      with RESTful APIs, cloud platforms such as Google Cloud,
                       Firebase, and AWS. I thrive in Ubuntu environments,
                       leveraging tools like GitHub to manage code and
                       collaborate effectively.

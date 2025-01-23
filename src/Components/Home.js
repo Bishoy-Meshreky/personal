@@ -54,11 +54,11 @@ const Home = () => {
                       <TypeAnimation
                         sequence={[
                           1000,
-                          "Software Developer",
-                          2000,
                           "Frontend Developer",
                           2000,
                           "Web Developer",
+                          2000,
+                          "Full Stack Developer",
                           1000,
                         ]}
                         wrapper="span"

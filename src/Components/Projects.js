@@ -10,6 +10,8 @@ import {
   Col,
 } from "reactstrap";
 import pic from "../assets/images/Garson.png";
+import pic3 from "../assets/images/desgin.png";
+import pic5 from "../assets/images/design 4.png";
 import "../assets/scss/App.scss";
 import { motion } from "framer-motion";
 
@@ -26,7 +28,8 @@ const Work = () => {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          variants={cardVariantsLeft}>
+          variants={cardVariantsLeft}
+        >
           <Row>
             <Col md="6" className="mb-4">
               <Card className="border-colors rounded-4">
@@ -44,14 +47,63 @@ const Work = () => {
                   <CardText
                     tag="h6"
                     className="text-sm-start mt-3 ms-4"
-                    style={{ marginBottom: "41px" }}
-                  >
-                    I have developed the Garson Web Application for managing
-                    restaurant and cafe orders.
-                  </CardText>
+                    style={{ marginBottom: "35px" }}
+                  ></CardText>
                   <CardText className="mt-3 mb-2">
                     <span className="fw-bold">Project Delivered:</span> December
                     2024
+                  </CardText>
+                </CardBody>
+              </Card>
+            </Col>
+
+            <Col md="6" className="mb-4">
+              <Card className="border-colors rounded-4">
+                <CardImg
+                  className="rounded-4"
+                  top
+                  width="100%"
+                  src={pic3}
+                  alt="Design"
+                />
+                <CardBody className="rounded-4">
+                  <CardTitle tag="h5" className="text-pro fw-bold ms-2 mt-4">
+                    TheEdge
+                  </CardTitle>
+                  <CardText
+                    tag="h6"
+                    className="text-sm-center ms-4"
+                    style={{ marginBottom: "30px" }}
+                  ></CardText>
+                  <CardText className="mt-3 mb-3">
+                    <span className="fw-bold">Project Delivered:</span> December
+                    2024
+                  </CardText>
+                </CardBody>
+              </Card>
+            </Col>
+
+            <Col md="6" className="mb-4">
+              <Card className="border-colors rounded-4">
+                <CardImg
+                  className="rounded-4"
+                  top
+                  width="100%"
+                  src={pic5}
+                  alt="Design"
+                />
+                <CardBody className="rounded-4">
+                  <CardTitle tag="h5" className="text-pro fw-bold ms-2">
+                    U.R.S Adminto
+                  </CardTitle>
+                  <CardText
+                    tag="h6"
+                    className="text-sm-center mt-3 ms-4"
+                    style={{ marginBottom: "36px" }}
+                  ></CardText>
+                  <CardText className="mt-3 mb-2">
+                    <span className="fw-bold">Project Delivered:</span> March
+                    2025
                   </CardText>
                 </CardBody>
               </Card>

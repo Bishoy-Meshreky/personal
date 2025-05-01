@@ -33,7 +33,7 @@ function App() {
                 style={{
                   borderColor: "#343a40",
                   backgroundColor: "#25252580",
-                  height: "43rem",
+                  height: "42.5rem",
                   overflowY: "auto",
                 }}
               >

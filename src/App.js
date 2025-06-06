@@ -2,9 +2,7 @@ import React, { useEffect } from "react";
 import "./assets/scss/App.scss";
 import Home from "./Components/Home";
 import About from "./Components/About";
-import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
-import Header from "./Components/Header";
 import Blogs from "./Components/Blogs";
 import { Row, Col, Card, CardBody, Container } from "reactstrap";
 
@@ -21,7 +19,6 @@ function App() {
     <React.StrictMode>
       <div className="App">
         <Container fluid>
-          <Header />
           <Row>
             <Col>
               <Home />
@@ -39,7 +36,6 @@ function App() {
               >
                 <CardBody>
                   <About />
-                  <Projects />
                   <Blogs />
                   <Contact />
                 </CardBody>

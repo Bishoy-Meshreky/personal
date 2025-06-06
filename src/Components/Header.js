@@ -49,7 +49,7 @@ const Header = () => {
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar className="justify-content-center">
             <Nav className="fw-bold" navbar>
-              {["ABOUT", "PROJECTS", "BLOGS", "CONTACT"].map((item) => (
+              {[].map((item) => (
                 <NavItem key={item}>
                   <NavLink
                     href={`#${item}`}

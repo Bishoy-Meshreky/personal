@@ -31,6 +31,7 @@ const Blogs = () => {
           initial="hidden"
           whileInView="visible"
           variants={cardVariantsLeft}
+          viewport={{ once: true }}
         >
           <Row>
             <Col md="6" className="mb-4">

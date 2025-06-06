@@ -26,6 +26,8 @@ import {
   faJs,
   faBootstrap,
   faAws,
+  faWordpress,
+  faPhp,
 } from "@fortawesome/free-brands-svg-icons";
 import nextJs from "../assets/images/nextjs-icon-svgrepo-com.svg";
 import reduxJs from "../assets/images/redux-svgrepo-com.svg";
@@ -49,7 +51,9 @@ const About = () => {
   const technologies = [
     { icon: faReact, color: "#61DBFB" },
     { icon: nextJs, color: "#000000", isCustom: true },
+    { icon: faWordpress, color: "#252F3E" },
     { icon: faNodeJs, color: "#68A063" },
+    { icon: faPhp, color: "#777bb3" },
     { icon: faJs, color: "#ffc107" },
     { icon: typeScript, color: "#000000", isCustom: true },
     { icon: faHtml5, color: "#e34c26" },
@@ -151,7 +155,7 @@ const About = () => {
                 </CardText>
                 <div
                   className="mt-4 ms-3 me-4"
-                  style={{ marginBottom: "45px" }}
+                  style={{ marginBottom: "25px" }}
                 >
                   <CardText tag="h6" className="text-sm-start mb-4 ms-2">
                     <motion.div
@@ -162,10 +166,10 @@ const About = () => {
                     >
                       I'm a passionate Software Developer specializing in
                       front-end development and web applications. I have a
-                      strong foundation in HTML, CSS, SCSS, and JavaScript, and
-                      I am particularly skilled in using modern frameworks like
-                      ReactJS and NextJS to create responsive, dynamic user
-                      interfaces.
+                      strong foundation in HTML, CSS, SCSS, JavaScript, and
+                      WordPress, and I am particularly skilled in using modern
+                      frameworks like ReactJS and NextJS to create responsive,
+                      dynamic user interfaces.
                     </motion.div>
                   </CardText>
                   <CardText tag="h6" className="text-sm-start mb-4 ms-2">

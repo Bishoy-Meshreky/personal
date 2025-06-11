@@ -23,7 +23,7 @@ function App() {
             <Col>
               <Home />
             </Col>
-
+            
             <Col md="8">
               <Card
                 className="rounded-5 card-scroll"

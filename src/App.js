@@ -4,6 +4,7 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Blogs from "./Components/Blogs";
+import Projects from "./Components/Projects";
 import { Row, Col, Card, CardBody, Container } from "reactstrap";
 
 import AOS from "aos";
@@ -36,6 +37,7 @@ function App() {
               >
                 <CardBody>
                   <About />
+                  <Projects/>
                   <Blogs />
                   <Contact />
                 </CardBody>

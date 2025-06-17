@@ -15,7 +15,7 @@ import pic5 from "../assets/images/design 4.png";
 import "../assets/scss/App.scss";
 import { motion } from "framer-motion";
 
-const Work = () => {
+const Projects = () => {
   const cardVariantsLeft = {
     hidden: { opacity: 0, x: -50 },
     visible: { opacity: 1, x: 0, transition: { duration: 0.7 } },
@@ -24,11 +24,12 @@ const Work = () => {
   return (
     <div className="projects" id="PROJECTS">
       <Container>
-        <h2 className="mb-4">My Work</h2>
+        <h2 className="mb-4">My Projects</h2>
         <motion.div
           initial="hidden"
           whileInView="visible"
           variants={cardVariantsLeft}
+          viewport={{ once: true }}
         >
           <Row>
             <Col md="6" className="mb-4">
@@ -115,4 +116,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Projects;

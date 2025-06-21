@@ -34,16 +34,15 @@ body {
 }
 
 .App {
-  padding: 74px 0;
   background: url("../images/background.jpg") no-repeat center center;
   background-size: cover;
   color: $light-color;
-  height: 791.5px;
+  min-height: 100vh;
   object-fit: cover;
   display: flex;
   justify-content: center;
   text-align: center;
-  overflow: auto;
+  overflow: hidden;
 
   &-content h1 {
     font-size: 3rem;
@@ -53,6 +52,7 @@ body {
     font-size: 1.5rem;
   }
 }
+
 
 .border-colors {
   border-color: #343a40 !important;

@@ -113,7 +113,7 @@ const Home = () => {
                   flexDirection: "row",
                   flexWrap: "nowrap",
                   alignItems: "center",
-                  margin: "93px 0px 19px",
+                  margin: "93px 0px 13px",
                 }}
               >
                 <Col md="6" className="fw-bold">

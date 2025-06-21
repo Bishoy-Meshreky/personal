@@ -11,7 +11,7 @@ import {
 } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faLinkedin,
+  faGithub,
   faWhatsapp,
   faMedium,
 } from "@fortawesome/free-brands-svg-icons";
@@ -70,13 +70,13 @@ const Home = () => {
 
                 <div className="d-flex flex-wrap justify-content-center">
                   <Link
-                    to="https://www.linkedin.com/in/bishoymeshreky/"
+                    to="https://github.com/Bishoy-Meshreky"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-4 move-icon"
                     style={{ fontSize: "25px" }}
                   >
-                    <FontAwesomeIcon icon={faLinkedin} />
+                    <FontAwesomeIcon icon={faGithub} />
                   </Link>
                   <Link
                     to="https://wa.me/+971508124475?text=Please%20leave%20your%20message%20along%20with%20Your%20Name,%20Your%20Company%20Name,%20and%20Your%20Email%20Address.%20Thank%20you!"

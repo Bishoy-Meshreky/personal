@@ -10,8 +10,9 @@ import {
   Col,
 } from "reactstrap";
 import pic from "../assets/images/Garson.png";
-import pic3 from "../assets/images/desgin.png";
+import pic2 from "../assets/images/2BEgypt.png";
 import pic5 from "../assets/images/design 4.png";
+import pic6 from "../assets/images/Alpha.png";
 import "../assets/scss/App.scss";
 import { motion } from "framer-motion";
 
@@ -22,9 +23,9 @@ const Projects = () => {
   };
 
   return (
-    <div className="projects" id="PROJECTS">
+    <div className="projects" id="Projects">
       <Container>
-        <h2 className="mb-4">My Projects</h2>
+        <h2 className="mb-4">Projects</h2>
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -32,6 +33,32 @@ const Projects = () => {
           viewport={{ once: true }}
         >
           <Row>
+            <Col md="6" className="mb-4">
+              <Card className="border-colors rounded-4">
+                <CardImg
+                  className="rounded-4"
+                  top
+                  width="100%"
+                  src={pic2}
+                  alt="Garson App"
+                />
+                <CardBody className="rounded-4">
+                  <CardTitle tag="h5" className="text-pro fw-bold ms-2">
+                    Best Buy Egypt
+                  </CardTitle>
+                  <CardText
+                    tag="h6"
+                    className="text-sm-start mt-3 ms-4"
+                    style={{ marginBottom: "35px" }}
+                  ></CardText>
+                  <CardText className=" mb-3">
+                    <span className="fw-bold">Project Delivered:</span> December
+                    2022
+                  </CardText>
+                </CardBody>
+              </Card>
+            </Col>
+
             <Col md="6" className="mb-4">
               <Card className="border-colors rounded-4">
                 <CardImg
@@ -64,32 +91,6 @@ const Projects = () => {
                   className="rounded-4"
                   top
                   width="100%"
-                  src={pic3}
-                  alt="Design"
-                />
-                <CardBody className="rounded-4">
-                  <CardTitle tag="h5" className="text-pro fw-bold ms-2 mt-4">
-                    TheEdge
-                  </CardTitle>
-                  <CardText
-                    tag="h6"
-                    className="text-sm-center ms-4"
-                    style={{ marginBottom: "30px" }}
-                  ></CardText>
-                  <CardText className="mt-3 mb-3">
-                    <span className="fw-bold">Project Delivered:</span> December
-                    2024
-                  </CardText>
-                </CardBody>
-              </Card>
-            </Col>
-
-            <Col md="6" className="mb-4">
-              <Card className="border-colors rounded-4">
-                <CardImg
-                  className="rounded-4"
-                  top
-                  width="100%"
                   src={pic5}
                   alt="Design"
                 />
@@ -103,7 +104,32 @@ const Projects = () => {
                     style={{ marginBottom: "36px" }}
                   ></CardText>
                   <CardText className="mt-3 mb-2">
-                    <span className="fw-bold">Project Delivered:</span> March
+                    <span className="fw-bold">Project Delivered:</span> April
+                    2025
+                  </CardText>
+                </CardBody>
+              </Card>
+            </Col>
+            <Col md="6" className="mb-4">
+              <Card className="border-colors rounded-4">
+                <CardImg
+                  className="rounded-4"
+                  top
+                  width="100%"
+                  src={pic6}
+                  alt="Design"
+                />
+                <CardBody className="rounded-4">
+                  <CardTitle tag="h5" className="text-pro fw-bold ms-2">
+                    Alpha Fashion
+                  </CardTitle>
+                  <CardText
+                    tag="h6"
+                    className="text-sm-center mt-3 ms-4"
+                    style={{ marginBottom: "36px" }}
+                  ></CardText>
+                  <CardText className="mt-3 mb-2">
+                    <span className="fw-bold">Project Delivered:</span> June
                     2025
                   </CardText>
                 </CardBody>

@@ -23,7 +23,7 @@ const Blogs = () => {
   };
 
   return (
-    <div className="blogs" id="BLOGS">
+    <div className="blogs" id="Blogs">
       <Container>
         <h2 className="mb-4">Blogs on Medium</h2>
 

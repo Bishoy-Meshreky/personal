@@ -68,7 +68,7 @@ const About = () => {
   ];
 
   return (
-    <div className="about" id="ABOUT">
+    <div className="about" id="About">
       <Container>
         <Row>
           <Col md="12">

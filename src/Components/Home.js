@@ -14,7 +14,6 @@ import {
   faLinkedin,
   faWhatsapp,
   faMedium,
-  faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faDownload,
@@ -89,18 +88,9 @@ const Home = () => {
                     <FontAwesomeIcon icon={faWhatsapp} />
                   </Link>
                   <Link
-                    to="https://github.com/Bishoy-Meshreky"
-                    target="_blank"
-                    className="rounded-5 btn-sm fw-bold mt-4 ms-4 move-icon"
-                    rel="noopener noreferrer"
-                    style={{ fontSize: "25px" }}
-                  >
-                    <FontAwesomeIcon icon={faGithub} />
-                  </Link>
-                  <Link
                     to="https://medium.com/@beshoymeshreky2013"
                     target="_blank"
-                    className="rounded-5 btn-sm fw-bold mt-4 ms-4 move-icon"
+                    className="rounded-5 btn-sm fw-bold mt-4 ms-3 move-icon"
                     rel="noopener noreferrer"
                     style={{ fontSize: "25px" }}
                   >

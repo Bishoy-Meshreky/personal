@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./assets/scss/App.scss";
+import Header from "./Components/Header";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
@@ -20,6 +21,7 @@ function App() {
     <React.StrictMode>
       <div className="App">
         <Container fluid>
+          <Header/>
           <Row>
             <Col>
               <Home />

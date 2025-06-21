@@ -73,7 +73,7 @@ const Contact = () => {
           emailjsServiceId,
           emailjsTemplateId,
           newEmails,
-          ""
+          "2_hYYWZfyOWdWxgCH"
         );
 
         setSuccessMessage(
@@ -97,7 +97,7 @@ const Contact = () => {
   }, [showAlert]);
 
   return (
-    <div className="contact" id="CONTACT">
+    <div className="contact" id="Contact">
       <Container>
         <h2 className="mb-4">Get in Touch</h2>
         <Row className="contact-box">

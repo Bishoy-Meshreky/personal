@@ -38,7 +38,7 @@ body {
   background: url("../images/background.jpg") no-repeat center center;
   background-size: cover;
   color: $light-color;
-  height: fit-content;
+  height: 791.5px;
   object-fit: cover;
   display: flex;
   justify-content: center;
@@ -57,47 +57,6 @@ body {
 .border-colors {
   border-color: #343a40 !important;
   background-color: #25252580 !important;
-}
-
-.contact {
-  padding: 20px 0px;
-  color: white;
-  height: auto;
-  overflow: hidden;
-
-  & h2 {
-    text-align: start;
-    margin-bottom: 20px;
-    font-weight: bold;
-    background: linear-gradient(
-      74deg,
-      #0b6159 0%,
-      #128c7e 9%,
-      #25d366 18%,
-      white 24%,
-      #8137d5 35%,
-      #0062ff 44%,
-      #8137d5 50%,
-      #ff4154 56%,
-      rgba(37, 37, 37, 0.7) 75%,
-      rgba(37, 37, 37, 0.7) 100%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  & p {
-    text-align: start;
-  }
-}
-
-.contact-box {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
 }
 
 .about {
@@ -139,11 +98,11 @@ body {
     #128c7e 5%,
     #25d366 12%,
     white 24%,
-    #8137d5 35%,
-    #0062ff 44%,
-    #8137d5 50%,
-    #ff4154 56%,
-    rgba(37, 37, 37, 0.7) 75%,
+    #0b6159 35%,
+    #128c7e 44%,
+    #25d366 50%,
+    #fff 56%,
+    white 75%,
     rgba(37, 37, 37, 0.7) 100%
   );
   -webkit-background-clip: text;
@@ -208,8 +167,8 @@ body {
       #25d366 20%,
       #25d366 24%,
       white 35%,
-      #8137d5 44%,
-      #8137d5 50%,
+      white 44%,
+      white 50%,
       #ff4154 56%,
       #ff4154 75%,
       rgba(37, 37, 37, 0.7) 100%
@@ -227,6 +186,47 @@ body {
     color: #ffffff;
     text-align: center;
   }
+}
+
+.contact {
+  padding: 20px 0px;
+  color: white;
+  height: auto;
+  overflow: hidden;
+
+  & h2 {
+    text-align: start;
+    margin-bottom: 20px;
+    font-weight: bold;
+    background: linear-gradient(
+      74deg,
+      #0b6159 0%,
+      #128c7e 9%,
+      #25d366 18%,
+      white 24%,
+      white 35%,
+      #0062ff 44%,
+      #8137d5 50%,
+      #ff4154 56%,
+      rgba(37, 37, 37, 0.7) 75%,
+      rgba(37, 37, 37, 0.7) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  & p {
+    text-align: start;
+  }
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 // zoom card in work
